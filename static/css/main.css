@@ -54,6 +54,15 @@ section:target {
     background-repeat: no-repeat;
 }
 
+.accordion-toggle {
+    color: white;
+}
+
+.accordion-toggle:hover {
+    color: lightgreen;
+    text-decoration: none;
+}
+
 #schedule-date {
     display: inline;
 }
@@ -162,12 +171,13 @@ tr:last-child {
 }
 
 thead {
-  width: 100%;
-  top: 0;
-  left: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 tbody {
-  max-height: 585px;
-  overflow: auto;
+    max-height: 585px;
+    overflow: auto;
+    cursor: pointer
 }
