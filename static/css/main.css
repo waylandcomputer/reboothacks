@@ -1,9 +1,16 @@
 body {
-    padding-top: 56px;
     font-family: Verdana;
     background-color: black;
     color: whitesmoke;
     text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+section:target {
+    padding-top: 56px;
 }
 
 #topnav {
@@ -45,6 +52,15 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.accordion-toggle {
+    color: white;
+}
+
+.accordion-toggle:hover {
+    color: lightgreen;
+    text-decoration: none;
 }
 
 #schedule-date {
@@ -131,16 +147,8 @@ td {
 
 tr {
     transition: all 0.5s ease-out;
-}
-
-tr:nth-child(even) {
-  background-color: #202030;
-  color: gainsboro;
-}
-
-tr:nth-child(odd) {
-  background-color: #202030;
-  color: gainsboro;
+    background-color: #202030;
+    color: gainsboro;
 }
 
 tr:hover {
@@ -149,26 +157,27 @@ tr:hover {
 }
 
 tr:first-child {
-    min-width: 20vw;
-    max-width: 20vw;
-    padding-left: 5vw;
+    min-width: 10vw;
+    max-width: 10vw;
+    padding-left: 2vw;
     color: pink;
 }
 
 tr:last-child {
-    min-width: 70vw;
-    max-width: 70vw;
-    padding-right: 5vw;
+    min-width: 35vw;
+    max-width: 35vw;
+    padding-right: 2vw;
     font-weight: bold;
 }
 
 thead {
-  width: 100%;
-  top: 0;
-  left: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 tbody {
-  max-height: 585px;
-  overflow: auto;
+    max-height: 585px;
+    overflow: auto;
+    cursor: pointer
 }
