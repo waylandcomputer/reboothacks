@@ -6,7 +6,7 @@
 {% block content %}
 
     <section id="titlepage" class="container-fluid">
-        <h1 id="title"><strong>PROJECT REBOOT</strong></h1>
+        <h1 id="title"><strong>PR</strong><img alt="O" src="static/assets/loading.gif" width="32" height="32"><strong>JECT REBOOT</strong></h1>
         <br>
         <h1>Reboot Learning</h1>
 
@@ -17,13 +17,15 @@
         </h3>
         <div class="row justify-content-center">
             <div class="col-md-2">
+                <form method="get" action="/test">
+                    <button type="button" class="btn btn-success btn-block">Join Slack</button>
+                </form>
+            </div>
+            <div class="col-md-2">
                 <button type="button" class="btn btn-primary btn-block">Mystery Button</button>
             </div>
             <div class="col-md-2">
                 <button type="button" class="btn btn-info btn-block">Useless Button 2</button>
-            </div>
-            <div class="col-md-2">
-                <button type="button" class="btn btn-danger btn-block">asdf</button>
             </div>
         </div>
     </section>
@@ -134,9 +136,16 @@
     </section>
     <section id="sponsors">
         <h2>Sponsors</h2>
+        <h5>Interested in sponsoring us? Shoot us an <a href="mailto:waylandcomputersci@gmail.com">email</a>!</h5>
+        <br>
         <h3>Platinum/Gold/Silver</h3>
+        <br>
         <a href="https://deluxethinkers.wixsite.com/deluxe" target="_blank" rel="noopener noreferrer">
             <img border="0" alt="Deluxe Thinkers" src="static/assets/Deluxe-Thinkers-Logo.png" width="100" height="100">
+        </a>
+        <br/><br/><br/>
+        <a href="https://hackclub.com/bank/" target="_blank" rel="noopener noreferrer">
+            <img border="0" alt="Powered by Hak Club Bank" src="static/assets/bank.png" width="400" height="100">
         </a>
     </section>
 {% endblock %}

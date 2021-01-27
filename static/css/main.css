@@ -33,7 +33,12 @@ section:target {
 }
 
 #title {
-    padding-top: 100px;
+    padding-top: 150px;
+}
+
+#title img {
+    positin: relative;
+    margin-top: -7px;
 }
 
 #start-date {
