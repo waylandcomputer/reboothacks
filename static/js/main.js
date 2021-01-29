@@ -1,3 +1,5 @@
+"use strict";
+
 function main(display) {
     var end = new Date("03/26/2021 12:00 AM");
 

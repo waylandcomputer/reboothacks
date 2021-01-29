@@ -51,13 +51,19 @@ section:target {
     padding-bottom: 100px;
 }
 
-#about > div {
+#about div {
     background-image: url("../../static/assets/abstract-pattern.jpg");
     height: 50vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#about h4 {
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .accordion-toggle {
@@ -69,8 +75,14 @@ section:target {
     text-decoration: none;
 }
 
+.fa-3x {
+    position: relative;
+    top: 8px;
+}
+
 #schedule-date {
-    display: inline;
+    display: inline-block;
+    width: 250px;
 }
 
 #schedule-header:first-child {
