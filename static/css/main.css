@@ -34,11 +34,12 @@ section:target {
 
 #title {
     padding-top: 150px;
+    font-size: 64px;
 }
 
 #title img {
     position: relative;
-    margin-top: -7px;
+    margin-top: -12px;
 }
 
 #start-date {
