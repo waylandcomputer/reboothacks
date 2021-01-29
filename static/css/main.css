@@ -37,7 +37,7 @@ section:target {
 }
 
 #title img {
-    positin: relative;
+    position: relative;
     margin-top: -7px;
 }
 
@@ -77,7 +77,6 @@ section:target {
 	color: #dcdcdc;
 	font-size: 2rem;
 	margin-left: 2%;
-    width: 50px;
 	user-select: none;
 	-moz-user-select: none;
 	-khtml-user-select: none;

@@ -197,14 +197,14 @@ function nextDay() {
 }
 
 function prevDay() {
-    if (curr_day === "Friday 3/5") {
-        curr_day = "Saturday 2/27";
-    } else if (curr_day === "Saturday 3/6") {
-        curr_day = "Friday 3/5";
-    } else if (curr_day === "Saturday 2/20") {
-        curr_day = "Saturday 3/6";
-    } else if (curr_day === "Saturday 2/27") {
-        curr_day = "Saturday 2/20";
+    if (curr_day === "Friday 3/26") {
+        curr_day = "Saturday 3/20";
+    } else if (curr_day === "Saturday 3/27") {
+        curr_day = "Friday 3/26";
+    } else if (curr_day === "Saturday 3/20") {
+        curr_day = "Saturday 3/13";
+    } else if (curr_day === "Saturday 3/13") {
+        curr_day = "Saturday 3/27";
     }
 
     document.getElementById("schedule-date").innerHTML = curr_day;
