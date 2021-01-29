@@ -40,7 +40,7 @@ function nextDay() {
                 <th>Event</th>
             </tr>
             </thead>
-            <tbody style="cursor: pointer">
+            <tbody>
             <tr>
                 <td>6:00 AM</td>
                 <td>Halfway Break</td>
@@ -80,7 +80,7 @@ function nextDay() {
                 <th>Event</th>
             </tr>
             </thead>
-            <tbody style="cursor: pointer">
+            <tbody>
             <tr>
                 <td>9:00 AM</td>
                 <td>Something</td>
@@ -120,7 +120,7 @@ function nextDay() {
                 <th>Event</th>
             </tr>
             </thead>
-            <tbody style="cursor: pointer">
+            <tbody>
             <tr>
                 <td>3:00 AM</td>
                 <td>Why do we have two of these</td>
@@ -160,7 +160,7 @@ function nextDay() {
                 <th>Event</th>
             </tr>
             </thead>
-            <tbody style="cursor: pointer">
+            <tbody>
             <tr>
                 <td>6:00 AM</td>
                 <td>Nothing</td>
