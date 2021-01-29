@@ -34,11 +34,12 @@ section:target {
 
 #title {
     padding-top: 150px;
+    font-size: 64px;
 }
 
 #title img {
-    positin: relative;
-    margin-top: -7px;
+    position: relative;
+    margin-top: -12px;
 }
 
 #start-date {
@@ -77,7 +78,6 @@ section:target {
 	color: #dcdcdc;
 	font-size: 2rem;
 	margin-left: 2%;
-    width: 50px;
 	user-select: none;
 	-moz-user-select: none;
 	-khtml-user-select: none;
