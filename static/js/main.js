@@ -32,50 +32,11 @@ jQuery(function ($) {
 });
 
 var curr_day = "Friday 3/26"
-function nextDay() {
-    if (curr_day === "Friday 3/26") {
-        curr_day = "Saturday 3/27";
-        document.getElementById("schedule-table").innerHTML = `
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Event</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>6:00 AM</td>
-                <td>Halfway Break</td>
-            </tr>
-            <tr>
-                <td>6:05 AM</td>
-                <td>Workshops</td>
-            </tr>
-            <tr>
-                <td>6:10 AM</td>
-                <td>Closing Ceremony</td>
-            </tr>
-            <tr>
-                <td>6:15 AM</td>
-                <td>Judging</td>
-            </tr>
-            <tr>
-                <td>8:00 PM</td>
-                <td>Awards</td>
-            </tr>
-            <tr>
-                <td>8:30 PM</td>
-                <td>Rip we aleady did the closing ceremony</td>
-            </tr>
-            <tr>
-                <td>9:00 PM</td>
-                <td>Looks like there's nothing to do on Saturday</td>
-            </tr>
-            </tbody>
-        `;
-    } else if (curr_day === "Saturday 3/27") {
-        curr_day = "Saturday 3/13";
-        document.getElementById("schedule-table").innerHTML = `
+var sat_13 = `
+        <colgroup>
+           <col style="width: 25%;">
+           <col style="width: 75%;">
+        </colgroup>
         <thead>
             <tr>
                 <th>Time</th>
@@ -113,9 +74,12 @@ function nextDay() {
             </tr>
             </tbody>
         `;
-    } else if (curr_day === "Saturday 3/13") {
-        curr_day = "Saturday 3/20";
-        document.getElementById("schedule-table").innerHTML = `
+
+var sat_20 = `
+        <colgroup>
+           <col style="width: 25%;">
+           <col style="width: 75%;">
+        </colgroup>
         <thead>
             <tr>
                 <th>Time</th>
@@ -153,9 +117,12 @@ function nextDay() {
             </tr>
             </tbody>
         `;
-    } else if (curr_day === "Saturday 3/20") {
-        curr_day = "Friday 3/26";
-        document.getElementById("schedule-table").innerHTML = `
+
+var fri_26 = `
+        <colgroup>
+           <col style="width: 25%;">
+           <col style="width: 75%;">
+        </colgroup>
         <thead>
             <tr>
                 <th>Time</th>
@@ -193,6 +160,62 @@ function nextDay() {
             </tr>
             </tbody>
         `;
+
+var sat_27 = `
+        <colgroup>
+           <col style="width: 25%;">
+           <col style="width: 75%;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>6:00 AM</td>
+                <td>Halfway Break</td>
+            </tr>
+            <tr>
+                <td>6:05 AM</td>
+                <td>Workshops</td>
+            </tr>
+            <tr>
+                <td>6:10 AM</td>
+                <td>Closing Ceremony</td>
+            </tr>
+            <tr>
+                <td>6:15 AM</td>
+                <td>Judging</td>
+            </tr>
+            <tr>
+                <td>8:00 PM</td>
+                <td>Awards</td>
+            </tr>
+            <tr>
+                <td>8:30 PM</td>
+                <td>Rip we aleady did the closing ceremony</td>
+            </tr>
+            <tr>
+                <td>9:00 PM</td>
+                <td>Looks like there's nothing to do on Saturday</td>
+            </tr>
+            </tbody>
+        `;
+function nextDay() {
+    if (curr_day === "Friday 3/26") {
+        curr_day = "Saturday 3/27";
+        document.getElementById("schedule-table").innerHTML = sat_27;
+    } else if (curr_day === "Saturday 3/27") {
+        curr_day = "Saturday 3/13";
+        document.getElementById("schedule-table").innerHTML = sat_13;
+    } else if (curr_day === "Saturday 3/13") {
+        curr_day = "Saturday 3/20";
+        document.getElementById("schedule-table").innerHTML = sat_20;
+    } else if (curr_day === "Saturday 3/20") {
+        curr_day = "Friday 3/26";
+        document.getElementById("schedule-table").innerHTML = fri_26;
     }
 
     document.getElementById("schedule-date").innerHTML = curr_day;
@@ -201,164 +224,16 @@ function nextDay() {
 function prevDay() {
     if (curr_day === "Friday 3/26") {
         curr_day = "Saturday 3/20";
-        document.getElementById("schedule-table").innerHTML = `
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Event</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>6:00 AM</td>
-                <td>Halfway Break</td>
-            </tr>
-            <tr>
-                <td>6:05 AM</td>
-                <td>Workshops</td>
-            </tr>
-            <tr>
-                <td>6:10 AM</td>
-                <td>Closing Ceremony</td>
-            </tr>
-            <tr>
-                <td>6:15 AM</td>
-                <td>Judging</td>
-            </tr>
-            <tr>
-                <td>8:00 PM</td>
-                <td>Awards</td>
-            </tr>
-            <tr>
-                <td>8:30 PM</td>
-                <td>Rip we aleady did the closing ceremony</td>
-            </tr>
-            <tr>
-                <td>9:00 PM</td>
-                <td>Looks like there's nothing to do on Saturday</td>
-            </tr>
-            </tbody>
-        `;
+        document.getElementById("schedule-table").innerHTML = sat_20;
     } else if (curr_day === "Saturday 3/27") {
         curr_day = "Friday 3/26";
-        document.getElementById("schedule-table").innerHTML = `
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Event</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>9:00 AM</td>
-                <td>Something</td>
-            </tr>
-            <tr>
-                <td>10:00 AM</td>
-                <td>Workshops</td>
-            </tr>
-            <tr>
-                <td>12:00 AM</td>
-                <td>Lunch Break</td>
-            </tr>
-            <tr>
-                <td>1:00 AM</td>
-                <td>idk</td>
-            </tr>
-            <tr>
-                <td>2:00 PM</td>
-                <td>something</td>
-            </tr>
-            <tr>
-                <td>2:01 PM</td>
-                <td>Everyone should go home early</td>
-            </tr>
-            <tr>
-                <td>2:02 PM</td>
-                <td>Stragglers get kicked out</td>
-            </tr>
-            </tbody>
-        `;
+        document.getElementById("schedule-table").innerHTML = fri_26;
     } else if (curr_day === "Saturday 3/13") {
         curr_day = "Saturday 3/27";
-        document.getElementById("schedule-table").innerHTML = `
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Event</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>3:00 AM</td>
-                <td>Why do we have two of these</td>
-            </tr>
-            <tr>
-                <td>4:00 AM</td>
-                <td>Sleep</td>
-            </tr>
-            <tr>
-                <td>5:00 AM</td>
-                <td>I've run out of</td>
-            </tr>
-            <tr>
-                <td>6:00 AM</td>
-                <td>ideas...</td>
-            </tr>
-            <tr>
-                <td>7:00 AM</td>
-                <td>More sleep</td>
-            </tr>
-            <tr>
-                <td>8:00 AM</td>
-                <td>Breakfast</td>
-            </tr>
-            <tr>
-                <td>9:00 AM</td>
-                <td>Sleeeep</td>
-            </tr>
-            </tbody>
-        `;
+        document.getElementById("schedule-table").innerHTML = sat_27;
     } else if (curr_day === "Saturday 3/20") {
         curr_day = "Saturday 3/13";
-        document.getElementById("schedule-table").innerHTML = `
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Event</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>6:00 AM</td>
-                <td>Nothing</td>
-            </tr>
-            <tr>
-                <td>8:00 AM</td>
-                <td>Still nothing</td>
-            </tr>
-            <tr>
-                <td>10:00 AM</td>
-                <td>Workshop</td>
-            </tr>
-            <tr>
-                <td>12:00 AM</td>
-                <td>Stuff</td>
-            </tr>
-            <tr>
-                <td>2:00 PM</td>
-                <td>Keep doing stuff</td>
-            </tr>
-            <tr>
-                <td>4:00 PM</td>
-                <td>idk</td>
-            </tr>
-            <tr>
-                <td>6:00 PM</td>
-                <td>k</td>
-            </tr>
-            </tbody>
-        `;
+        document.getElementById("schedule-table").innerHTML = sat_13;
     }
 
     document.getElementById("schedule-date").innerHTML = curr_day;

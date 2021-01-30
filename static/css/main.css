@@ -123,11 +123,9 @@ section:target {
 
 table {
     width: 100%;
-    background-color: #fff;
+    background-color: black;
     position: relative;
     padding-top: 60px;
-    border-radius: 10px;
-    overflow: hidden;
     table-layout: fixed;
     box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
@@ -140,8 +138,6 @@ th,
 td {
     font-weight: unset;
     padding-right: 10px;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
 th {
@@ -170,21 +166,8 @@ tr {
 
 tr:hover {
     background-color: #404050;
-    transform: scale(1.05);
-}
-
-tr:first-child {
-    min-width: 10vw;
-    max-width: 10vw;
-    padding-left: 2vw;
-    color: pink;
-}
-
-tr:last-child {
-    min-width: 35vw;
-    max-width: 35vw;
-    padding-right: 2vw;
-    font-weight: bold;
+    transform: scale(1
+    .05);
 }
 
 thead {
@@ -195,6 +178,5 @@ thead {
 
 tbody {
     max-height: 585px;
-    overflow: auto;
     cursor: pointer
 }
