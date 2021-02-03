@@ -19,6 +19,9 @@ testing
 	- link to facebook
 	- link to reddit
 	- link to hackaway for good
+	- link to all articles
+		- 2 this year
+		- 1 last year
 
 - clean up joke text
 - link to instagram
