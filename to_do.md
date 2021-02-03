@@ -28,4 +28,8 @@ testing
 
 - link to reboothacks
 
+- clean up theme
+	- font
+	- images
+- FAQ
 
