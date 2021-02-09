@@ -9,7 +9,7 @@ testing
 	- Testing (done)
 
 - Website:
-	- Tab Logo - favicon
+	- Tab Logo - favicon (done)
 
 - Wayland CS Section
 	- Who we are
