@@ -6,7 +6,7 @@
 {% block content %}
 
     <section id="titlepage" class="container-fluid">
-        <h1 id="title"><strong>PR</strong><img alt="O" src="static/assets/loading.gif" width="50" height="50"><strong>JECT
+        <h1 id="title"><strong>PR</strong><img alt="O" src="static/assets/loading.gif" width="50" height="50" id="loading"><strong>JECT
             REBOOT</strong></h1>
         <br>
         <h1>Reboot Learning...</h1>
@@ -49,7 +49,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                               href="#collapseOne">What is Project Reboot?</a>
+                               href="#collapseOne"
+                               onclick="this.innerHTML = this.innerHTML.includes('minus') ?
+                               '<i class=\'fas fa-plus-square\'></i> What is Project Reboot?'
+                               : '<i class=\'fas fa-minus-square\'></i> What is Project Reboot?'"
+                            >
+                                <i class="fas fa-minus-square"></i> What is Project Reboot?
+                            </a>
                         </h4>
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse in">
@@ -66,7 +72,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-                               href="#collapseTen">Who can participate?</a>
+                               href="#collapseTen"
+                               onclick="this.innerHTML = this.innerHTML.includes('minus') ?
+                               '<i class=\'fas fa-plus-square\'></i> Who can participate?'
+                               : '<i class=\'fas fa-minus-square\'></i> Who can participate?'"
+                            >
+                                <i class="fas fa-minus-square"></i> Who can participate?
+                            </a>
                         </h4>
                     </div>
                     <div id="collapseTen" class="panel-collapse collapse">
@@ -83,7 +95,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-                               href="#collapseEleven">More questions coming soon!</a>
+                               href="#collapseEleven"
+                                onclick="this.innerHTML = this.innerHTML.includes('minus') ?
+                               '<i class=\'fas fa-plus-square\'></i> More questions coming soon!'
+                               : '<i class=\'fas fa-minus-square\'></i> More questions coming soon!'"
+                            >
+                                <i class="fas fa-minus-square"></i> More questions coming soon!
+                            </a>
                         </h4>
                     </div>
                     <div id="collapseEleven" class="panel-collapse collapse">
