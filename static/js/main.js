@@ -132,6 +132,49 @@ var fri_26 = `
             <tbody>
             <tr>
                 <td>6:00 AM</td>
+                <td>Halfway Break</td>
+            </tr>
+            <tr>
+                <td>6:05 AM</td>
+                <td>Workshops</td>
+            </tr>
+            <tr>
+                <td>6:10 AM</td>
+                <td>Closing Ceremony</td>
+            </tr>
+            <tr>
+                <td>6:15 AM</td>
+                <td>Judging</td>
+            </tr>
+            <tr>
+                <td>8:00 PM</td>
+                <td>Awards</td>
+            </tr>
+            <tr>
+                <td>8:30 PM</td>
+                <td>Rip we aleady did the closing ceremony</td>
+            </tr>
+            <tr>
+                <td>9:00 PM</td>
+                <td>Looks like there's nothing to do on Saturday</td>
+            </tr>
+            </tbody>
+        `;
+
+var sat_27 = `
+        <colgroup>
+           <col style="width: 25%;">
+           <col style="width: 75%;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>6:00 AM</td>
                 <td>Nothing</td>
             </tr>
             <tr>
@@ -161,48 +204,6 @@ var fri_26 = `
             </tbody>
         `;
 
-var sat_27 = `
-        <colgroup>
-           <col style="width: 25%;">
-           <col style="width: 75%;">
-        </colgroup>
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Event</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>6:00 AM</td>
-                <td>Halfway Break</td>
-            </tr>
-            <tr>
-                <td>6:05 AM</td>
-                <td>Workshops</td>
-            </tr>
-            <tr>
-                <td>6:10 AM</td>
-                <td>Closing Ceremony</td>
-            </tr>
-            <tr>
-                <td>6:15 AM</td>
-                <td>Judging</td>
-            </tr>
-            <tr>
-                <td>8:00 PM</td>
-                <td>Awards</td>
-            </tr>
-            <tr>
-                <td>8:30 PM</td>
-                <td>Rip we aleady did the closing ceremony</td>
-            </tr>
-            <tr>
-                <td>9:00 PM</td>
-                <td>Looks like there's nothing to do on Saturday</td>
-            </tr>
-            </tbody>
-        `;
 function nextDay() {
     if (curr_day === "Friday 3/26") {
         curr_day = "Saturday 3/27";
