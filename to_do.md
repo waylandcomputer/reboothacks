@@ -14,9 +14,9 @@ testing
 - Wayland CS Section
 	- Who we are
 	- Pictures
-	- link to cs club insta
-	- link to youtube
-	- link to facebook
+	- link to cs club insta (done)
+	- link to youtube (done)
+	- link to facebook (done)
 	- link to reddit
 	- link to hackaway for good
 	- link to all articles
@@ -24,7 +24,7 @@ testing
 		- 1 last year
 
 - clean up joke text
-- link to instagram
+- link to instagram (done)
 
 - link to reboothacks
 

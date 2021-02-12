@@ -5,7 +5,7 @@
 
 {% block content %}
 
-    <section id="titlepage" class="container-fluid">
+    <section id="titlepage" class="container-fluid" >
         <h1 id="title"><strong>PR</strong><img alt="O" src="static/assets/loading.gif" width="50" height="50"><strong>JECT
             REBOOT</strong></h1>
         <br>
@@ -23,14 +23,14 @@
                 </form>
             </div>
             <div class="col-md-2">
-                <button type="button" class="btn btn-primary btn-block">Mystery Button</button>
+                <button onclick="window.location.href='https://hackawayforgood.org';" type="button" class="btn btn-primary btn-block" target="_blank">Take a look at last year's hackathon!</button>
             </div>
             <div class="col-md-2">
                 <button type="button" class="btn btn-info btn-block">Cool Button</button>
             </div>
         </div>
     </section>
-    <section id="about">
+    <section id="about" style="background: #1d221e" class="container-fluid">
         <h1>About</h1>
         <h4>We are Project Reboot, the 2021 hackathon run by the Wayland High School Computer Science Club.
             Our goal is to show that coding is fun for all people, regardless of skill level,
@@ -39,7 +39,7 @@
             by developing tools and applications to help blind users.
             This year, we want to bring the region's towns together once again
             by working together to improve the quality of remote learning.</h4>
-        <div></div>
+            <div></div>
     </section>
     <section id="info" class="row">
         <div class="col-md-6">
@@ -147,7 +147,7 @@
             </table>
         </div>
     </section>
-    <section id="sponsors">
+    <section id="sponsors" style="background: #1d221e">
         <h2>Sponsors</h2>
         <h5>Interested in sponsoring us? Shoot us an <a href="mailto:waylandcomputersci@gmail.com">email</a>!</h5>
         <br>
@@ -171,6 +171,26 @@
         <a href="https://hackclub.com/bank/" target="_blank" rel="noopener noreferrer">
             <img border="0" alt="Powered by Hack Club Bank" src="static/assets/bank.png" width="400" height="100">
         </a>
+    </section>
+    <section id="social media" style="padding: 5vh 0vh 5vh 0vh; background: #101020">
+        <h2>Follow our social media!</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <a href="https://www.youtube.com/channel/UCwZ5Ip1wCb8yC9sfNnCtsZw" target="_blank" rel="noopener noreferrer">
+                    <img class="social-logo" border="0" alt="Youtube" src="static/assets/yt.png" width="120" height="120">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.instagram.com/waylandcomputer/" target="_blank" rel="noopener noreferrer">
+                    <img class="social-logo" border="0" alt="Instagram" src="static/assets/ig.png" width="100" height="100">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.facebook.com/groups/236451944678953" target="_blank" rel="noopener noreferrer">
+                    <img class="social-logo" border="0" alt="Facebook" src="static/assets/facebook.png" width="100" height="100">
+                </a>
+            </div> 
+        </div>  
     </section>
 {% endblock %}
 
