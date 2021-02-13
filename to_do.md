@@ -29,7 +29,7 @@ testing
 - link to reboothacks
 
 - clean up theme
-	- font
+	- font (done)
 	- images
 - FAQ
 
