@@ -6,6 +6,11 @@
     font-weight: 100;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 html {
     -webkit-tap-highlight-color:transparent;
     scroll-behavior: smooth;
@@ -19,7 +24,6 @@ body {
 }
 
 section {
-    padding: 20px;
     scroll-behavior: smooth;
 }
 
@@ -44,6 +48,7 @@ section:target {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 50px;
 }
 
 #title {
@@ -61,26 +66,29 @@ section:target {
     padding-bottom: 50px;
 }
 
-#titlepage > .row {
-    padding-bottom: 100px;
+#about {
+    padding-top: 20px;
 }
 
-#about div {
-    background-image: url("../../static/assets/abstract-pattern.jpg");
-    height: 40vh;
-    width: 99vw;
-    margin-left: -20px;
-    margin-bottom: -20px;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+#info {
+    padding: 20px;
+    padding-bottom: 100px;
+    margin: 0px;
 }
 
 #about h4 {
     margin: 10%;
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+}
+
+#about div {
+    background-image: url("../../static/assets/abstract-pattern.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .panel {
@@ -109,6 +117,14 @@ a[aria-expanded=false] .fa-plus-square {
     top: 8px;
 }
 
+#schedule:not(#schedule-table) {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
 #schedule-date {
     display: inline-block;
     width: 250px;
@@ -118,7 +134,6 @@ a[aria-expanded=false] .fa-plus-square {
 	cursor: pointer;
 	color: #dcdcdc;
 	font-size: 2rem;
-	margin-left: 2%;
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-select: none;
@@ -135,7 +150,6 @@ a[aria-expanded=false] .fa-plus-square {
 	cursor: pointer;
 	color: #dcdcdc;
 	font-size: 2rem;
-	margin-right: 2%;
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-select: none;
@@ -154,17 +168,11 @@ table {
     position: relative;
     padding-top: 60px;
     table-layout: fixed;
-    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
-    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
-    -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 
 th,
 td {
     font-weight: unset;
-    padding-right: 10px;
 }
 
 th {
@@ -206,4 +214,8 @@ thead {
 tbody {
     max-height: 585px;
     cursor: pointer
+}
+
+#sponsors, #social-media {
+    padding: 20px;
 }
