@@ -66,8 +66,11 @@ section:target {
 }
 
 #about div {
-    background-image: url("/static/assets/abstract-pattern.jpg");
-    height: 50vh;
+    background-image: url("../../static/assets/abstract-pattern.jpg");
+    height: 40vh;
+    width: 99vw;
+    margin-left: -20px;
+    margin-bottom: -20px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
