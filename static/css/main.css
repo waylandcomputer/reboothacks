@@ -96,6 +96,14 @@ section:target {
     text-decoration: none;
 }
 
+a[aria-expanded=true] .fa-minus-square {
+    display: none
+}
+
+a[aria-expanded=false] .fa-plus-square {
+    display: none
+}
+
 .fa-3x {
     position: relative;
     top: 8px;
