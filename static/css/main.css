@@ -1,5 +1,18 @@
+@font-face
+{
+    font-family: Aldrich;
+    src: url("/static/assets/Aldrich-Regular.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+html {
+    -webkit-tap-highlight-color:transparent;
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: Verdana;
+    font-family: Aldrich;
     background-color: black;
     color: whitesmoke;
     text-align: center;
@@ -7,6 +20,7 @@ body {
 
 section {
     padding: 20px;
+    scroll-behavior: smooth;
 }
 
 section:target {
@@ -15,7 +29,7 @@ section:target {
 
 #topnav {
     height: 56px;
-    background-image: url("../../static/assets/banner.png");
+    background-image: url("/static/assets/banner.png");
     background-size: cover;
 }
 
@@ -24,7 +38,7 @@ section:target {
 }
 
 #titlepage {
-    background-image: url("../../static/assets/square-header.jpg");
+    background-image: url("/static/assets/square-header.jpg");
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -69,6 +83,10 @@ section:target {
     margin-bottom: 5%;
 }
 
+.panel {
+    margin: 20px;
+}
+
 .accordion-toggle {
     color: white;
 }
@@ -95,9 +113,8 @@ section:target {
 	margin-left: 2%;
 	user-select: none;
 	-moz-user-select: none;
-	-khtml-user-select: none;
 	-webkit-user-select: none;
-	-o-user-select: none;
+    -ms-user-select: none;
 	z-index: 100;
 	transition-duration: .1s
 }
@@ -113,9 +130,8 @@ section:target {
 	margin-right: 2%;
 	user-select: none;
 	-moz-user-select: none;
-	-khtml-user-select: none;
 	-webkit-user-select: none;
-	-o-user-select: none;
+    -ms-user-select: none;
 	z-index: 100;
 	transition-duration: .1s
 }
