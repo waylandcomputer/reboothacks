@@ -53,10 +53,13 @@ section:target {
 
 #title {
     padding-top: 150px;
+}
+
+#title h1 {
     font-size: 64px;
 }
 
-#title img {
+#title h1 img {
     position: relative;
     margin-top: -12px;
 }
@@ -66,14 +69,25 @@ section:target {
     padding-bottom: 50px;
 }
 
-#about {
-    padding-top: 20px;
+.slide {
+  color: #FFF;
+  border: 2px solid #03C04A;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #03C04A;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
 }
 
-#info {
-    padding: 20px;
-    padding-bottom: 100px;
-    margin: 0px;
+.slide:hover {
+    box-shadow: inset 0 0 0 75px #03C04A;
+}
+
+#about {
+    padding-top: 20px;
 }
 
 #about h4 {
@@ -89,6 +103,12 @@ section:target {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#info {
+    padding: 20px;
+    padding-bottom: 100px;
+    margin: 0px;
 }
 
 .panel {
@@ -162,12 +182,16 @@ a[aria-expanded=false] .fa-plus-square {
 	color: gray
 }
 
-table {
+#schedule-table {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    overflow: hidden;
     width: 100%;
     background-color: black;
     position: relative;
     padding-top: 60px;
     table-layout: fixed;
+    box-shadow: 10px 10px 10px 8px black;
 }
 
 th,
@@ -212,7 +236,6 @@ thead {
 }
 
 tbody {
-    max-height: 585px;
     cursor: pointer
 }
 

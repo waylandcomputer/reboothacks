@@ -6,8 +6,10 @@
 {% block content %}
 
     <section id="titlepage" class="container-fluid">
-        <h1 id="title"><strong>PR</strong><img alt="O" src="static/assets/loading.gif" width="50" height="50"><strong>JECT
-            REBOOT</strong></h1>
+        <div id="title">
+            <h1 class="animate__animated animate__rotateInDownLeft"><strong>PR</strong><img alt="O" src="static/assets/loading.gif" width="50" height="50"><strong>JECT</strong></h1>
+            <h1 class="animate__animated animate__rotateInUpRight"><strong>REBOOT</strong></h1>
+        </div>
         <br>
         <h1>Reboot Learning...</h1>
 
@@ -18,15 +20,13 @@
         </h3>
         <div class="row justify-content-center">
             <div class="col-md-2">
-                <form method="get" action="/test">
-                    <button type="button" class="btn btn-success btn-block">Join Slack</button>
-                </form>
+                <a class="slide btn btn-block" href="/test">Join Slack</a>
             </div>
             <div class="col-md-2">
-                <a class="btn btn-primary" href="https://hackawayforgood.org" target="_blank">Take a look at last year's hackathon!</a>
+                <a class="slide btn" href="https://hackawayforgood.org" target="_blank" rel="noopener noreferrer">Take a look at last year's hackathon!</a>
             </div>
             <div class="col-md-2">
-                <button type="button" class="btn btn-info btn-block">Cool Button</button>
+                <a class="slide btn btn-block" href="/test">Cool Button</a>
             </div>
         </div>
     </section>
@@ -161,7 +161,7 @@
     </section>
     <section id="sponsors" style="background: #1d221e">
         <h2>Sponsors</h2>
-        <h5>Interested in sponsoring us? Shoot us an <a href="mailto:waylandcomputersci@gmail.com">email</a>!</h5>
+        <h5>Interested in sponsoring us? Check out our <a href="https://drive.google.com/file/d/1M489fAXqMQimNTHrGeMjOgeykByHI0O6/view" target="_blank" rel="noopener noreferrer">prospectus</a> and shoot us an <a href="mailto:waylandcomputersci@gmail.com">email</a>!</h5>
         <br>
         <h3>Platinum/Gold/Silver</h3>
         <br>
