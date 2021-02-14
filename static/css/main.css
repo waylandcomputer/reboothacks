@@ -73,9 +73,7 @@ section:target {
 .slide {
   color: #FFF;
   border: 2px solid #03C04A;
-  border-radius: 0px;
-  padding: 18px 36px;
-  display: inline-block;
+  border-radius: 5px;
   cursor: pointer;
   box-shadow: inset 0 0 0 0 #03C04A;
   -webkit-transition: ease-out 0.4s;
