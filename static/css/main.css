@@ -42,7 +42,7 @@ section:target {
 }
 
 #titlepage {
-    background-image: url("/static/assets/square-header.jpg");
+    background-image: url("/static/assets/square-header-blurred.jpg");
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
