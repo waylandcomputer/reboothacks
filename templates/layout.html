@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+          content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
@@ -26,36 +26,34 @@
     {% endblock %}
 </head>
 <body>
-<nav id="topnav" class="navbar navbar-expand fixed-top navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img id="logo" src="static/assets/logo.png">
-            &nbsp Reboot Hacks
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<nav id="topnav" class="navbar navbar-expand-sm fixed-top navbar-dark">
+    <a class="navbar-brand" href="#">
+        <img id="logo" src="static/assets/logo.png">
+        &nbsp Reboot Hacks
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="topnavbar">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="/">Home</a>
-                <a class="nav-item nav-link" href="#about">About</a>
-                <a class="nav-item nav-link" href="#info">FAQ</a>
-                <a class="nav-item nav-link typeform-share button"
-                   href="https://form.typeform.com/to/TlzStQ5X?typeform-medium=embed-snippet" data-mode="drawer_right"
-                   target="_blank">Sign Up</a>
-                <script> (function () {
-                    var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement,
-                        gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/";
-                    if (!gi.call(d, id)) {
-                        js = ce.call(d, "script");
-                        js.id = id;
-                        js.src = b + "embed.js";
-                        q = gt.call(d, "script")[0];
-                        q.parentNode.insertBefore(js, q)
-                    }
-                })() </script>
-            </div>
+    <div class="collapse navbar-collapse justify-content-end" id="topnavbar">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/">Home</a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#info">FAQ</a>
+            <a class="nav-item nav-link typeform-share button"
+               href="https://form.typeform.com/to/TlzStQ5X?typeform-medium=embed-snippet" data-mode="drawer_right"
+               target="_blank">Sign Up</a>
+            <script> (function () {
+                var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement,
+                    gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/";
+                if (!gi.call(d, id)) {
+                    js = ce.call(d, "script");
+                    js.id = id;
+                    js.src = b + "embed.js";
+                    q = gt.call(d, "script")[0];
+                    q.parentNode.insertBefore(js, q)
+                }
+            })() </script>
         </div>
     </div>
 </nav>

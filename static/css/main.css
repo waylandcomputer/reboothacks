@@ -35,6 +35,7 @@ section:target {
     height: 56px;
     background-image: url("/static/assets/banner.png");
     background-size: cover;
+    text-align: right;
 }
 
 #logo {
