@@ -62,19 +62,28 @@ section:target {
 
 @media only screen and (min-width: 600px) {
     #title h1 {
-        font-size: 64px;
+        font-size: 96px;
+    }
+
+    #title h1 img {
+        position: relative;
+        margin-top: -18px;
+        width: 75px;
+        height: 75px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     #title h1 {
-        font-size: 10vw;
+        font-size: 15vw;
     }
-}
 
-#title h1 img {
-    position: relative;
-    margin-top: -12px;
+    #title h1 img {
+        position: relative;
+        margin-top: calc(15vw * -18/96);
+        width: calc(15vw * 75/96);
+        height: calc(15vw * 75/96);
+    }
 }
 
 #start-date {
