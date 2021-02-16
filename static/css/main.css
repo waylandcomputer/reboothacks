@@ -46,6 +46,13 @@ section:target {
     border: 0px;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 #titlepage {
     background-image: url("/static/assets/square-header-blurred.jpg");
     height: 100%;
