@@ -42,6 +42,10 @@ section:target {
     height: 40px;
 }
 
+.navbar-toggler {
+    border: 0px;
+}
+
 #titlepage {
     background-image: url("/static/assets/square-header-blurred.jpg");
     height: 100%;
@@ -56,8 +60,16 @@ section:target {
     padding-top: 150px;
 }
 
-#title h1 {
-    font-size: 64px;
+@media only screen and (min-width: 600px) {
+    #title h1 {
+        font-size: 64px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #title h1 {
+        font-size: 10vw;
+    }
 }
 
 #title h1 img {
@@ -240,4 +252,9 @@ tbody {
 
 #sponsors, #social-media {
     padding: 20px;
+}
+
+.logo:hover {
+    animation: pulse;
+    animation-duration: 2s;
 }
