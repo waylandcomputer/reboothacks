@@ -49,6 +49,17 @@ section:target {
     height: 40px;
 }
 
+.navbar-toggler {
+    border: 0px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 #titlepage {
     background-image: url("/static/assets/square-header-blurred.jpg");
     height: 100%;
@@ -56,20 +67,38 @@ section:target {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #title {
     padding-top: 150px;
 }
 
-#title h1 {
-    font-size: 64px;
+@media only screen and (min-width: 600px) {
+    #title h1 {
+        font-size: 96px;
+    }
+
+    #title h1 img {
+        position: relative;
+        margin-top: -18px;
+        width: 75px;
+        height: 75px;
+    }
 }
 
-#title h1 img {
-    position: relative;
-    margin-top: -12px;
+@media only screen and (max-width: 600px) {
+    #title h1 {
+        font-size: 15vw;
+    }
+
+    #title h1 img {
+        position: relative;
+        margin-top: calc(15vw * -18/96);
+        width: calc(15vw * 75/96);
+        height: calc(15vw * 75/96);
+    }
 }
 
 #start-date {
@@ -400,3 +429,7 @@ tbody {
     }
   }
   
+.logo:hover {
+    animation: pulse;
+    animation-duration: 2s;
+}
