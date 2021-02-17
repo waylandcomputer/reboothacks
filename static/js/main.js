@@ -45,32 +45,28 @@ var sat_13 = `
             </thead>
             <tbody>
             <tr>
-                <td>9:00 AM</td>
-                <td>Something</td>
+                <td>6:55 PM</td>
+                <td>Stream starts!</td>
             </tr>
             <tr>
-                <td>10:00 AM</td>
-                <td>Workshops</td>
+                <td>7:00 PM</td>
+                <td>Introductions</td>
             </tr>
             <tr>
-                <td>12:00 AM</td>
-                <td>Lunch Break</td>
+                <td>7:30 PM</td>
+                <td>Challenge Introductions</td>
             </tr>
             <tr>
-                <td>1:00 AM</td>
-                <td>idk</td>
+                <td>7:45 PM</td>
+                <td>Speaker</td>
             </tr>
             <tr>
-                <td>2:00 PM</td>
-                <td>something</td>
+                <td>8:45 PM</td>
+                <td>Demo</td>
             </tr>
             <tr>
-                <td>2:01 PM</td>
-                <td>Everyone should go home early</td>
-            </tr>
-            <tr>
-                <td>2:02 PM</td>
-                <td>Stragglers get kicked out</td>
+                <td>9:00 PM</td>
+                <td>Stream ends</td>
             </tr>
             </tbody>
         `;
@@ -88,32 +84,28 @@ var sat_20 = `
             </thead>
             <tbody>
             <tr>
-                <td>3:00 AM</td>
-                <td>Why do we have two of these</td>
+                <td>6:55 PM</td>
+                <td>Stream starts!</td>
             </tr>
             <tr>
-                <td>4:00 AM</td>
-                <td>Sleep</td>
+                <td>7:00 PM</td>
+                <td>Introductions</td>
             </tr>
             <tr>
-                <td>5:00 AM</td>
-                <td>I've run out of</td>
+                <td>7:30 PM</td>
+                <td>Challenge Introductions</td>
             </tr>
             <tr>
-                <td>6:00 AM</td>
-                <td>ideas...</td>
+                <td>7:45 PM</td>
+                <td>Speaker</td>
             </tr>
             <tr>
-                <td>7:00 AM</td>
-                <td>More sleep</td>
+                <td>8:45 PM</td>
+                <td>Demo</td>
             </tr>
             <tr>
-                <td>8:00 AM</td>
-                <td>Breakfast</td>
-            </tr>
-            <tr>
-                <td>9:00 AM</td>
-                <td>Sleeeep</td>
+                <td>9:00 PM</td>
+                <td>Stream ends</td>
             </tr>
             </tbody>
         `;
@@ -131,32 +123,32 @@ var fri_26 = `
             </thead>
             <tbody>
             <tr>
-                <td>6:00 AM</td>
-                <td>Halfway Break</td>
+                <td>6:00 PM</td>
+                <td>Opening ceromony starts</td>
             </tr>
             <tr>
-                <td>6:05 AM</td>
-                <td>Workshops</td>
+                <td>6:15 PM</td>
+                <td>Challenge Introductions</td>
             </tr>
             <tr>
-                <td>6:10 AM</td>
-                <td>Closing Ceremony</td>
+                <td>6:45 PM</td>
+                <td>Finding a team, slack tutorial</td>
             </tr>
             <tr>
-                <td>6:15 AM</td>
-                <td>Judging</td>
+                <td>7:00 PM</td>
+                <td>Intro speaker</td>
             </tr>
             <tr>
-                <td>8:00 PM</td>
-                <td>Awards</td>
+                <td>7:30 PM</td>
+                <td>Keynote speaker</td>
             </tr>
             <tr>
                 <td>8:30 PM</td>
-                <td>Rip we aleady did the closing ceremony</td>
+                <td>Preview the next day</td>
             </tr>
             <tr>
                 <td>9:00 PM</td>
-                <td>Looks like there's nothing to do on Saturday</td>
+                <td>Hacking begins!</td>
             </tr>
             </tbody>
         `;
@@ -174,32 +166,44 @@ var sat_27 = `
             </thead>
             <tbody>
             <tr>
-                <td>6:00 AM</td>
-                <td>Nothing</td>
+                <td>8:30 AM</td>
+                <td>Check in</td>
             </tr>
             <tr>
-                <td>8:00 AM</td>
-                <td>Still nothing</td>
+                <td>9:00 AM</td>
+                <td>Git workshop</td>
             </tr>
             <tr>
                 <td>10:00 AM</td>
-                <td>Workshop</td>
+                <td>Workshop space open</td>
             </tr>
             <tr>
-                <td>12:00 AM</td>
-                <td>Stuff</td>
+                <td>11:00 AM</td>
+                <td>Speaker</td>
             </tr>
             <tr>
-                <td>2:00 PM</td>
-                <td>Keep doing stuff</td>
+                <td>12:00 PM</td>
+                <td>Check in & lunch</td>
+            </tr>
+            <tr>
+                <td>1:30 PM</td>
+                <td>Speaker</td>
             </tr>
             <tr>
                 <td>4:00 PM</td>
-                <td>idk</td>
+                <td>Final hour announcement</td>
             </tr>
             <tr>
-                <td>6:00 PM</td>
-                <td>k</td>
+                <td>5:00 PM</td>
+                <td>Hacking ends!</td>
+            </tr>
+            <tr>
+                <td>5:30 PM</td>
+                <td>Demos & judging</td>
+            </tr>
+            <tr>
+                <td>7:00 PM</td>
+                <td>Awards Ceremony</td>
             </tr>
             </tbody>
         `;
