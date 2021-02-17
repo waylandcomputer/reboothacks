@@ -9,6 +9,6 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/test")
+@app.route("/challenge")
 def newpage():
-    return render_template("test.html")
+    return render_template("challenge.html")
