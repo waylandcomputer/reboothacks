@@ -279,12 +279,13 @@ tbody {
     padding: 20px;
 }
 
-#social-media * {
+#social-media h4 {
     padding-left: 30px;
     padding-right: 30px;
 }
 
 #social-media div div div a {
+    box-sizing: border-box;
     color: #03C04A;
 }
 
