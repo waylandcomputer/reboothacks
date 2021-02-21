@@ -284,15 +284,14 @@ tbody {
     padding-right: 30px;
 }
 
-#social-media div .col-md-1 a {
+#social-media div div div a {
     color: #03C04A;
 }
 
-#social-media div .col-md-1 a i:hover {
+#social-media div div div a i:hover {
     animation: pulse;
     animation-duration: 2s;
 }
-
 
 .flip-clock {
     text-align: center;
@@ -431,4 +430,19 @@ tbody {
         transform: rotateX(0deg);
         z-index: 5;
     }
+}
+
+#input {
+    width: 8em;
+    max-width: 80%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    z-index: 999;
+    opacity: .25;
+    transition: opacity .3s;
 }
