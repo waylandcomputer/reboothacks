@@ -291,7 +291,7 @@ const END_POINTS_OFFSET = [
 
 class FullscreenCanvas {
     constructor(disableScale = false) {
-        const canvas = document.createElement('canvas');
+        const canvas = document.getElementById('text-grid');
         const context = canvas.getContext('2d');
 
         this.canvas = canvas;
@@ -327,7 +327,6 @@ class FullscreenCanvas {
         this.realHeight = canvas.height = innerHeight * scale;
         canvas.style.width = `${innerWidth}px`;
         canvas.style.height = `${innerHeight}px`;
-
         context.scale(scale, scale);
     }
 
@@ -395,7 +394,7 @@ class FullscreenCanvas {
 
         canvas.style.position = 'absolute';
         canvas.style.left = '0px';
-        canvas.style.top = '0px';
+        canvas.style.top = '397px';
 
         target.appendChild(canvas);
     }
