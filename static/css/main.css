@@ -261,7 +261,7 @@ tr {
 }
 
 tr:hover {
-    background-color: #404050;
+    background-color: #1D221E;
     transform: scale(1 .05);
 }
 
