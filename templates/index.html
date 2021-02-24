@@ -16,18 +16,18 @@
 
     <h3 id="start-date">
         March 26 - 27, 2021
-        <br>
-        <span id="time"></span>
+        <br/><br/>
+        <div class="row justify-content-center">
+            <span id="countdown-text">Registration closes in:</span>
+            <span id="countdown"></span>
+        </div>
     </h3>
     <div class="row justify-content-center">
         <div class="col-sm-4 col-md-3">
-            <a class="slide btn btn-block btn-outline-success"
-                href="https://join.slack.com/t/reboothacks/shared_invite/zt-ls5bp1ab-CJ8ScGdOYQfOSUm5QPwVBA">Join
-                Slack</a>
+            <a class="slide btn btn-block btn-outline-success" href="https://join.slack.com/t/reboothacks/shared_invite/zt-ls5bp1ab-CJ8ScGdOYQfOSUm5QPwVBA" target="_blank" rel="noopener noreferrer">Join Slack</a>
         </div>
         <div class="col-sm-4 col-md-3">
-            <a class="slide btn btn-block btn-outline-success" href="https://hackawayforgood.org" target="_blank"
-                rel="noopener noreferrer">Take a look at last year's hackathon!</a>
+            <a class="slide btn btn-block btn-outline-success" href="https://hackawayforgood.org" target="_blank" rel="noopener noreferrer">Take a look at last year's hackathon!</a>
         </div>
         <div class="col-sm-4 col-md-3">
             <a class="slide btn btn-block btn-outline-success" href="/challenge">Challenge</a>
@@ -193,32 +193,6 @@
             height="100">
     </a>
 </section>
-<section id="social-media" style="padding: 5vh 0vh 5vh 0vh; background: #101020">
-    <h2>Follow our social media!</h2>
-    <div class="row justify-content-center">
-        <div class="col-md-1">
-            <a href="https://www.youtube.com/channel/UCwZ5Ip1wCb8yC9sfNnCtsZw" target="_blank"
-                rel="noopener noreferrer">
-                <img class="logo" border="0" alt="Youtube" src="static/assets/yt.png" width="120" height="120">
-            </a>
-        </div>
-        <div class="col-md-1">
-            <a href="https://www.instagram.com/waylandcomputer/" target="_blank" rel="noopener noreferrer">
-                <img class="logo" border="0" alt="Instagram" src="static/assets/ig.png" width="100" height="100">
-            </a>
-        </div>
-        <div class="col-md-1">
-            <a href="https://www.facebook.com/groups/236451944678953" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-facebook fa-3x"></i>
-            </a>
-        </div>
-    </div>
-</section>
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-
-<input type="text" id="input" placeholder="type whatever" title="type and press enter" />
 
 <canvas id="text-grid"></canvas>
 
@@ -232,10 +206,37 @@ Commands:
 #ring
 -->
 
+<section id="social-media" style="padding: 5vh 0vw 5vh 0vw; background: #101020">
+    <div class="container-fluid">
+        <h4>Follow our social media!</h4>
+        <div class="row justify-content-center">
+            <div class="col-md-1 col-sm-2 d-flex justify-content-center">
+                <a href="https://www.youtube.com/channel/UCwZ5Ip1wCb8yC9sfNnCtsZw" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-youtube fa-3x"></i>
+                </a>
+            </div>
+            <div class="col-md-1 col-sm-2 d-flex justify-content-center">
+                <a href="https://www.instagram.com/waylandcomputer/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram fa-3x"></i>
+                </a>
+            </div>
+            <div class="col-md-1 col-sm-2 d-flex justify-content-center">
+                <a href="https://www.facebook.com/groups/236451944678953" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook fa-3x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+<!--     <div id="para" class="container-fluid"></div>
+    <input type="text" id="input" placeholder="type whatever" title="type and press enter" /> -->
+
+</section>
+
 {% endblock %}
 
 {% block scripts %}
-
-<script src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
-<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="https://cdn.rawgit.com/vuejs/vue/v1.0.24/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 {% endblock %}
