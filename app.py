@@ -12,3 +12,7 @@ def index():
 @app.route("/challenge")
 def newpage():
     return render_template("challenge.html")
+
+@app.route("/easter-egg")
+def newpage1():
+    return render_template("easter-egg.html")

@@ -354,6 +354,8 @@ var Countdown = new Vue({
 });
 
 
+//grid box
+
 const STEP_LENGTH = 1;
 const CELL_SIZE = 10;
 const BORDER_WIDTH = 2;
