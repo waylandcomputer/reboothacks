@@ -1,2 +1,1 @@
-## reboothacks.com
-# Coming Soon!
+# [reboothacks.com](https://www.reboothacks.com)
