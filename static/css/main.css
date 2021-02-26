@@ -26,8 +26,10 @@ section {
     scroll-behavior: smooth;
 }
 
-section:target {
-    padding-top: 56px;
+section:before {
+    height: 56px;
+    content: "";
+    display:block;
 }
 
 #topnav {
@@ -143,8 +145,10 @@ section:target {
 }
 
 #info {
-    padding: 20px;
+    padding-top: 56px;
     padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0px;
 }
 
@@ -282,6 +286,11 @@ tbody {
 #social-media h4 {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.logo:hover {
+    animation: pulse;
+    animation-duration: 2s;
 }
 
 #social-media div div div a {
