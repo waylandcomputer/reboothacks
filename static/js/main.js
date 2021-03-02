@@ -1,44 +1,44 @@
 "use strict";
 
 var curr_day = "Friday 3/26"
-var sat_13 = `
-        <colgroup>
-           <col style="width: 25%;">
-           <col style="width: 75%;">
-        </colgroup>
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Event</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>6:55 PM</td>
-                <td>Stream starts!</td>
-            </tr>
-            <tr>
-                <td>7:00 PM</td>
-                <td>Introductions</td>
-            </tr>
-            <tr>
-                <td>7:30 PM</td>
-                <td>Challenge Introductions</td>
-            </tr>
-            <tr>
-                <td>7:45 PM</td>
-                <td>Speaker</td>
-            </tr>
-            <tr>
-                <td>8:45 PM</td>
-                <td>Demo</td>
-            </tr>
-            <tr>
-                <td>9:00 PM</td>
-                <td>Stream ends</td>
-            </tr>
-            </tbody>
-        `;
+// var sat_13 = `
+//         <colgroup>
+//            <col style="width: 25%;">
+//            <col style="width: 75%;">
+//         </colgroup>
+//         <thead>
+//             <tr>
+//                 <th>Time</th>
+//                 <th>Event</th>
+//             </tr>
+//             </thead>
+//             <tbody>
+//             <tr>
+//                 <td>6:55 PM</td>
+//                 <td>Stream starts!</td>
+//             </tr>
+//             <tr>
+//                 <td>7:00 PM</td>
+//                 <td>Introductions</td>
+//             </tr>
+//             <tr>
+//                 <td>7:30 PM</td>
+//                 <td>Challenge Introductions</td>
+//             </tr>
+//             <tr>
+//                 <td>7:45 PM</td>
+//                 <td>Speaker</td>
+//             </tr>
+//             <tr>
+//                 <td>8:45 PM</td>
+//                 <td>Demo</td>
+//             </tr>
+//             <tr>
+//                 <td>9:00 PM</td>
+//                 <td>Stream ends</td>
+//             </tr>
+//             </tbody>
+//         `;
 
 var sat_20 = `
         <colgroup>
@@ -182,11 +182,11 @@ function nextDay() {
         curr_day = "Saturday 3/27";
         document.getElementById("schedule-table").innerHTML = sat_27;
     } else if (curr_day === "Saturday 3/27") {
-        curr_day = "Saturday 3/13";
-        document.getElementById("schedule-table").innerHTML = sat_13;
-    } else if (curr_day === "Saturday 3/13") {
         curr_day = "Saturday 3/20";
         document.getElementById("schedule-table").innerHTML = sat_20;
+    // } else if (curr_day === "Saturday 3/13") {
+    //     curr_day = "Saturday 3/20";
+    //     document.getElementById("schedule-table").innerHTML = sat_20;
     } else if (curr_day === "Saturday 3/20") {
         curr_day = "Friday 3/26";
         document.getElementById("schedule-table").innerHTML = fri_26;
@@ -202,12 +202,12 @@ function prevDay() {
     } else if (curr_day === "Saturday 3/27") {
         curr_day = "Friday 3/26";
         document.getElementById("schedule-table").innerHTML = fri_26;
-    } else if (curr_day === "Saturday 3/13") {
+    // } else if (curr_day === "Saturday 3/13") {
+    //     curr_day = "Saturday 3/27";
+    //     document.getElementById("schedule-table").innerHTML = sat_27;
+    } else if (curr_day === "Saturday 3/20") {
         curr_day = "Saturday 3/27";
         document.getElementById("schedule-table").innerHTML = sat_27;
-    } else if (curr_day === "Saturday 3/20") {
-        curr_day = "Saturday 3/13";
-        document.getElementById("schedule-table").innerHTML = sat_13;
     }
 
     document.getElementById("schedule-date").innerHTML = curr_day;
