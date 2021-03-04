@@ -279,6 +279,25 @@ tbody {
     cursor: pointer
 }
 
+#team h4 {
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#team #dotbg {
+    background-image: url("../../static/assets/OLED-iPhone-11-Pro-green-wallpaper-iDownloadBlog-green-vortex.png");
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+}
+
+#team div figure img {
+    border: 5px solid #03C04A;
+}
+
 #sponsors, #social-media {
     padding: 20px;
 }
