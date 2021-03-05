@@ -295,7 +295,14 @@ tbody {
 }
 
 #team div figure img {
-    border: 5px solid #03C04A;
+    border: 5px solid #065725;
+}
+
+.cropped {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50%, 50%;
 }
 
 #sponsors, #social-media {

@@ -184,9 +184,9 @@ function nextDay() {
     } else if (curr_day === "Saturday 3/27") {
         curr_day = "Saturday 3/20";
         document.getElementById("schedule-table").innerHTML = sat_20;
-    // } else if (curr_day === "Saturday 3/13") {
-    //     curr_day = "Saturday 3/20";
-    //     document.getElementById("schedule-table").innerHTML = sat_20;
+        // } else if (curr_day === "Saturday 3/13") {
+        //     curr_day = "Saturday 3/20";
+        //     document.getElementById("schedule-table").innerHTML = sat_20;
     } else if (curr_day === "Saturday 3/20") {
         curr_day = "Friday 3/26";
         document.getElementById("schedule-table").innerHTML = fri_26;
@@ -202,9 +202,9 @@ function prevDay() {
     } else if (curr_day === "Saturday 3/27") {
         curr_day = "Friday 3/26";
         document.getElementById("schedule-table").innerHTML = fri_26;
-    // } else if (curr_day === "Saturday 3/13") {
-    //     curr_day = "Saturday 3/27";
-    //     document.getElementById("schedule-table").innerHTML = sat_27;
+        // } else if (curr_day === "Saturday 3/13") {
+        //     curr_day = "Saturday 3/27";
+        //     document.getElementById("schedule-table").innerHTML = sat_27;
     } else if (curr_day === "Saturday 3/20") {
         curr_day = "Saturday 3/27";
         document.getElementById("schedule-table").innerHTML = sat_27;
@@ -402,7 +402,7 @@ const END_POINTS_OFFSET = [
 
 class FullscreenCanvas {
     constructor(disableScale = false) {
-        const canvas = document.getElementById('text-grid');
+        const canvas = document.createElement('canvas');
         const context = canvas.getContext('2d');
 
         this.canvas = canvas;
