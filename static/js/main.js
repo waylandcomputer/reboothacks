@@ -1,45 +1,6 @@
 "use strict";
 
 var curr_day = "Friday 3/26"
-// var sat_13 = `
-//         <colgroup>
-//            <col style="width: 25%;">
-//            <col style="width: 75%;">
-//         </colgroup>
-//         <thead>
-//             <tr>
-//                 <th>Time</th>
-//                 <th>Event</th>
-//             </tr>
-//             </thead>
-//             <tbody>
-//             <tr>
-//                 <td>6:55 PM</td>
-//                 <td>Stream starts!</td>
-//             </tr>
-//             <tr>
-//                 <td>7:00 PM</td>
-//                 <td>Introductions</td>
-//             </tr>
-//             <tr>
-//                 <td>7:30 PM</td>
-//                 <td>Challenge Introductions</td>
-//             </tr>
-//             <tr>
-//                 <td>7:45 PM</td>
-//                 <td>Speaker</td>
-//             </tr>
-//             <tr>
-//                 <td>8:45 PM</td>
-//                 <td>Demo</td>
-//             </tr>
-//             <tr>
-//                 <td>9:00 PM</td>
-//                 <td>Stream ends</td>
-//             </tr>
-//             </tbody>
-//         `;
-
 var sat_20 = `
         <colgroup>
            <col style="width: 25%;">
@@ -47,7 +8,7 @@ var sat_20 = `
         </colgroup>
         <thead>
             <tr>
-                <th>Time</th>
+                <th>Time (EDT)</th>
                 <th>Event</th>
             </tr>
             </thead>
@@ -86,7 +47,7 @@ var fri_26 = `
         </colgroup>
         <thead>
             <tr>
-                <th>Time</th>
+                <th>Time (EDT)</th>
                 <th>Event</th>
             </tr>
             </thead>
@@ -129,7 +90,7 @@ var sat_27 = `
         </colgroup>
         <thead>
             <tr>
-                <th>Time</th>
+                <th>Time (EDT)</th>
                 <th>Event</th>
             </tr>
             </thead>

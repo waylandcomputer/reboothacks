@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Project Reboot, a Wayland Hackathon for high schoolers">
+    <meta name="keywords" content="Project Reboot, Reboot Learning, Hackathon, Wayland">
+    <meta name="author" content="Project Reboot Team">
     <meta name="viewport"
           content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,7 +12,10 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
     <meta http-equiv="Pragma" content="no-cache"/>
     <meta http-equiv="Expires" content="0"/>
-    <title>Reboot Learning</title>
+
+    {% block title %}
+        <title>Reboot Learning</title>
+    {% endblock %}
 
     <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
