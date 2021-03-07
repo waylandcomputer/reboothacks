@@ -1,3 +1,12 @@
+
+// Commands:
+// #clear
+// #explode
+// #queue
+// #countdown
+// #galaxy
+// #ring
+
 "use strict";
 
 
