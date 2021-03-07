@@ -820,7 +820,7 @@ const shape = {
 let timer;
 
 function queue() {
-    const text = 'reboot hacks';
+    const text = 'Sign_Up_4_Reb00tHackzzz ';
 
     let i = 0;
     const max = text.length;
