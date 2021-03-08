@@ -32,6 +32,11 @@ section:before {
     display:block;
 }
 
+ul {
+  text-align: center;
+  list-style: inside;
+}
+
 #topnav {
     height: 56px;
     background-image: url("/static/assets/banner.png");
