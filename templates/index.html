@@ -3,37 +3,38 @@
 {% block styles %}
 {% endblock %}
 {% block content %}
-<section id="titlepage" class="mainbg container-fluid">
-    <div id="title">
-        <h1 class="animate__animated animate__rotateInDownLeft"><strong>PR</strong><a href="/easter-egg"><img alt="O"
+    <section id="titlepage" class="mainbg container-fluid">
+        <div id="title">
+            <h1 class="animate__animated animate__rotateInDownLeft"><strong>PR</strong><a href="/easter-egg"><img
+                    alt="O"
                     src="static/assets/loading.gif"></a><strong>JECT</strong></h1>
-        <h1 class="animate__animated animate__rotateInUpRight"><strong>REBOOT</strong></h1>
-    </div>
-    <br>
-    <h1>Reboot Learning...</h1>
+            <h1 class="animate__animated animate__rotateInUpRight"><strong>REBOOT</strong></h1>
+        </div>
+        <br>
+        <h1>Reboot Learning...</h1>
 
-    <h3 id="start-date">
-        March 26 - 27, 2021
-        <br/><br/>
+        <h3 id="start-date">
+            March 26 - 27, 2021
+            <br/><br/>
+            <div class="row justify-content-center">
+                <span id="countdown-text">Registration closes in:</span>
+                <span id="countdown"></span>
+            </div>
+        </h3>
         <div class="row justify-content-center">
-            <span id="countdown-text">Registration closes in:</span>
-            <span id="countdown"></span>
-        </div>
-    </h3>
-    <div class="row justify-content-center">
-        <div class="col-sm-4 col-md-3">
-            <a class="slide btn btn-block btn-outline-success"
-                href="https://discord.gg/SUa7NqckT6"
-                target="_blank" rel="noopener noreferrer">Join Discord</a>
-        </div>
-        <div class="col-sm-4 col-md-3">
-            <a class="slide btn btn-block btn-outline-success" href="/challenge">Challenge</a>
-        </div>
-        <div class="col-sm-4 col-md-3">
-            <a class="slide btn btn-block btn-outline-success typeform-share"
-                href="https://form.typeform.com/to/TlzStQ5X?typeform-medium=embed-snippet" data-mode="drawer_right"
-                target="_blank">Sign Up</a>
-            <script> (function () {
+            <div class="col-sm-4 col-md-3">
+                <a class="slide btn btn-block btn-outline-success"
+                   href="https://discord.gg/SUa7NqckT6"
+                   target="_blank" rel="noopener noreferrer">Join Discord</a>
+            </div>
+            <div class="col-sm-4 col-md-3">
+                <a class="slide btn btn-block btn-outline-success" href="/challenge">Challenge</a>
+            </div>
+            <div class="col-sm-4 col-md-3">
+                <a class="slide btn btn-block btn-outline-success typeform-share"
+                   href="https://form.typeform.com/to/TlzStQ5X?typeform-medium=embed-snippet" data-mode="drawer_right"
+                   target="_blank">Sign Up</a>
+                <script> (function () {
                     var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement,
                         gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/";
                     if (!gi.call(d, id)) {
@@ -44,160 +45,163 @@
                         q.parentNode.insertBefore(js, q)
                     }
                 })()</script>
+            </div>
         </div>
-    </div>
-</section>
-<section id="about" style="background: #1d221e" class="container-fluid px-0">
-    <h1>About</h1>
-    <h4>We are the Wayland High School Computer Science Club, and we are
-        running Project Reboot, a 2021 virtual hackathon designed for high school
-        students. Our goal is to show that coding is fun for everyone, regardless of
-        skill level, through creating hackathons to help those in need.<br>
-        For example, <a href="https://hackawayforgood.org" target="_blank" rel="noopener noreferrer">last year's
-            hackathon</a> brought Wayland and many towns in the Greater Boston Area together
-        by developing tools and applications to help blind users.
-        This year, we want to unite even more students
-        together by working to improve the quality of remote learning, but we
-        need your help to make this possible.</h4>
-    <div></div>
-</section>
-<section id="info" class="row" style="background: #101010">
-    <div class="col-md-6">
-        <div class="panel-group" id="accordion">
-            <h2>FAQ</h2>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                            aria-expanded="false" aria-controls="collapseExample" href="#collapseOne">
-                            <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> What is Project
-                            Reboot?
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                        It's a one-day hackathon for all high school students.
-                        Students will work in teams to build a prototype of an app, game, web site or device that
-                        tackles
-                        issues people may face with remote learning.
-                        Using design thinking, students learn how to develop new ideas and design technology
-                        that will improve life and productivity for the many people learning and working remotely
-                        during
-                        the pandemic.
+    </section>
+    <section id="about" style="background: #1d221e" class="container-fluid px-0">
+        <h1>About</h1>
+        <h4>We are the Wayland High School Computer Science Club, and we are
+            running Project Reboot, a 2021 virtual hackathon designed for high school
+            students. Our goal is to show that coding is fun for everyone, regardless of
+            skill level, through creating hackathons to help those in need.<br>
+            For example, <a href="https://hackawayforgood.org" target="_blank" rel="noopener noreferrer">last year's
+                hackathon</a> brought Wayland and many towns in the Greater Boston Area together
+            by developing tools and applications to help blind users.
+            This year, we want to unite even more students
+            together by working to improve the quality of remote learning, but we
+            need your help to make this possible.</h4>
+        <div></div>
+    </section>
+    <section id="info" class="row" style="background: #101010">
+        <div class="col-md-6">
+            <div class="panel-group" id="accordion">
+                <h2>FAQ</h2>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                               aria-expanded="false" aria-controls="collapseExample" href="#collapseOne">
+                                <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> What is Project
+                                Reboot?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            It's a one-day hackathon for all high school students.
+                            Students will work in teams to build a prototype of an app, game, web site or device that
+                            tackles
+                            issues people may face with remote learning.
+                            Using design thinking, students learn how to develop new ideas and design technology
+                            that will improve life and productivity for the many people learning and working remotely
+                            during
+                            the pandemic.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-                            aria-expanded="false" aria-controls="collapseExample" href="#collapseTwo">
-                            <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> Who can
-                            participate?
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        Any high school student in grades 9-12 who's interested in coding,
-                        innovative technologies, and 
-                        entrepreneurship can attend.
-                        If you've graduated from high school, be a mentor! Contact us if interested.
-                        If you're in middle school, feel free to join in, but please contact us for more
-                        information.
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                               aria-expanded="false" aria-controls="collapseExample" href="#collapseTwo">
+                                <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> Who can
+                                participate?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Any high school student in grades 9-12 who's interested in coding,
+                            innovative technologies, and
+                            entrepreneurship can attend.
+                            If you've graduated from high school, be a mentor! Contact us if interested.
+                            If you're in middle school, feel free to join in, but please contact us for more
+                            information.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-                            href="#collapseThree" aria-expanded="false" aria-controls="collapseExample">
-                            <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> Do I need to
-                            have a team?
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        You may form a team with up to four members.
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseThree" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> Do I need to
+                                have a team?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            You may form a team with up to four members.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-                            href="#collapseFour" aria-expanded="false" aria-controls="collapseExample">
-                            <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> Does this hackathon
-                            cost money to attend?
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseFour" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        No, Project Reboot is free and everything down to workshops and free swag are covered for participants.
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseFour" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> Does this
+                                hackathon
+                                cost money to attend?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            No, Project Reboot is free and everything down to workshops and free swag are covered for
+                            participants.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-                            href="#collapseFive" aria-expanded="false" aria-controls="collapseExample">
-                            <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> What should I do if
-                            I have another question?
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseFive" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        Feel free to <a href="mailto:waylandcomputersci@gmail.com">contact us</a>.
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseFive" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> What should I do
+                                if
+                                I have another question?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Feel free to <a href="mailto:waylandcomputersci@gmail.com">contact us</a>.
+                        </div>
                     </div>
                 </div>
-            </div>
-{#            <div class="panel panel-default">#}
-{#                <div class="panel-heading">#}
-{#                    <h4 class="panel-title">#}
-{#                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"#}
-{#                            href="#collapseSix" aria-expanded="false" aria-controls="collapseExample">#}
-{#                            <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> More questions#}
-{#                            coming#}
-{#                            soon!#}
-{#                        </a>#}
-{#                    </h4>#}
-{#                </div>#}
-{#                <div id="collapseSix" class="panel-collapse collapse">#}
-{#                    <div class="panel-body">#}
-{#                        More answers coming soon!#}
-{#                    </div>#}
-{#                </div>#}
-{#            </div>#}
+                {#            <div class="panel panel-default">#}
+                {#                <div class="panel-heading">#}
+                {#                    <h4 class="panel-title">#}
+                {#                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"#}
+                {#                            href="#collapseSix" aria-expanded="false" aria-controls="collapseExample">#}
+                {#                            <i class="fas fa-plus-square"></i> <i class="fas fa-minus-square"></i> More questions#}
+                {#                            coming#}
+                {#                            soon!#}
+                {#                        </a>#}
+                {#                    </h4>#}
+                {#                </div>#}
+                {#                <div id="collapseSix" class="panel-collapse collapse">#}
+                {#                    <div class="panel-body">#}
+                {#                        More answers coming soon!#}
+                {#                    </div>#}
+                {#                </div>#}
+                {#            </div>#}
 
-        </div>
-    </div>
-
-    <div id="schedule" class="col-md-6">
-        <h2>Schedule</h2>
-        <div id="schedule-header">
-            <i class="fas fa-caret-left fa-3x" onclick="prevDay()"></i>
-            <h3 id="schedule-date">Friday 3/26</h3>
-            <i class="fas fa-caret-right fa-3x" onclick="nextDay()"></i>
+            </div>
         </div>
 
-        <table id="schedule-table">
-            <colgroup>
-                <col style="width: 25%;">
-                <col style="width: 75%;">
-            </colgroup>
-            <thead>
+        <div id="schedule" class="col-md-6">
+            <h2>Schedule</h2>
+            <div id="schedule-header">
+                <i class="fas fa-caret-left fa-3x" onclick="prevDay()"></i>
+                <h3 id="schedule-date">Friday 3/26</h3>
+                <i class="fas fa-caret-right fa-3x" onclick="nextDay()"></i>
+            </div>
+
+            <table id="schedule-table">
+                <colgroup>
+                    <col style="width: 25%;">
+                    <col style="width: 75%;">
+                </colgroup>
+                <thead>
                 <tr>
                     <th>Time (EDT)</th>
                     <th>Event</th>
                 </tr>
-            </thead>
-            <tbody>
+                </thead>
+                <tbody>
                 <tr>
                     <td>6:00 PM</td>
                     <td>Opening ceromony starts</td>
@@ -226,316 +230,323 @@
                     <td>9:00 PM</td>
                     <td>Hacking begins!</td>
                 </tr>
-            </tbody>
-        </table>
-    </div>
-</section>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
-<section id="sponsors" style="background: #1d221e">
-    <h2>Sponsors</h2>
-    <h5>Interested in sponsoring us? Check out our <a
-            href="https://drive.google.com/file/d/1B3gEFy6CeezzUXNZ6EGVXIt6zXhyA4zQ/view" target="_blank"
-            rel="noopener noreferrer">prospectus</a> and shoot us an <a
-            href="mailto:waylandcomputersci@gmail.com">email</a>!</h5>
-    <br>
-    <h3 style="color:lightseagreen">Platinum</h3>
-    <br>
-    <div class="row justify-content-center">
-        <div class="col-md-4">
-            <a href="https://www.village-bank.com" target="_blank" rel="noopener noreferrer">
-                <img class="logo" border="0" alt="theVillageBank" src="static/assets/village.png" width="483" height="120">
-            </a>
+    <section id="sponsors" style="background: #1d221e">
+        <h2>Sponsors</h2>
+        <h5>Interested in sponsoring us? Check out our <a
+                href="https://drive.google.com/file/d/1B3gEFy6CeezzUXNZ6EGVXIt6zXhyA4zQ/view" target="_blank"
+                rel="noopener noreferrer">prospectus</a> and shoot us an <a
+                href="mailto:waylandcomputersci@gmail.com">email</a>!</h5>
+        <br>
+        <h3 style="color:lightseagreen">Platinum</h3>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <a href="https://www.village-bank.com" target="_blank" rel="noopener noreferrer">
+                    <img class="logo" border="0" alt="theVillageBank" src="static/assets/village.png" width="483"
+                         height="120">
+                </a>
+            </div>
         </div>
-    </div>
-    <div class="row justify-content-center">
+        <div class="row justify-content-center">
 
-    </div>
-    <br>
-    <h3 style="color: gold">Gold</h3>
-    <br>
-    <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-4">
-            <a href="https://wolfram.com" target="_blank" rel="noopener noreferrer">
-                <img class="logo" border="0" alt="Wolfram" src="static/assets/wolfram.png" width="250" height="100">
-            </a>
         </div>
-        <div class="col-lg-3 col-md-4">
-            <a href="https://www.thecoderschool.com/locations/sudbury/" target="_blank" rel="noopener noreferrer">
-                <img class="logo" border="0" alt="theCoderSchool Sudbury" src="static/assets/coder.png" width="125" height="125">
-            </a>
+        <br>
+        <h3 style="color: gold">Gold</h3>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-4">
+                <a href="https://wolfram.com" target="_blank" rel="noopener noreferrer">
+                    <img id="wolfram" class="logo" border="0" alt="Wolfram" src="static/assets/wolfram.png" width="200"
+                         height="100">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <a href="https://www.thecoderschool.com/locations/sudbury/" target="_blank" rel="noopener noreferrer">
+                    <img id="coderschool" class="logo" border="0" alt="theCoderSchool Sudbury"
+                         src="static/assets/coder.png" width="200" height="100">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <a href="https://repl.it" target="_blank" rel="noopener noreferrer">
+                    <img id="replit" class="logo" border="0" alt="Repl.it" src="static/assets/replit-light.png"
+                         width="200" height="100">
+                </a>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-4">
-            <a href="https://repl.it" target="_blank" rel="noopener noreferrer">
-                <img class="logo" border="0" alt="Repl.it" src="static/assets/replit-light.png" width="250" height="90">
-            </a>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-4">
-            <a href="https://www.echoar.xyz" target="_blank" rel="noopener noreferrer">
-                <img id="echo" class="logo" border="0" alt="echoAR" src="static/assets/echoAR_-_Logo_2020.png" width="260" height="100">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4">
-            <a href="https://rstudio.com" target="_blank" rel="noopener noreferrer">
-                <img class="logo" border="0" alt="RStudio" src="static/assets/RStudio-Logo-Flat-2.png" width="285" height="100">
-            </a>
-        </div>
-    </div>
-
-    <h3 style="color: silver;">Silver</h3>
-    <br>
-    <div class="row justify-content-center">
-        <div class="col-md-2">
-            <a href="https://deluxethinkers.wixsite.com/deluxe" target="_blank" rel="noopener noreferrer">
-                <img class="logo" border="0" alt="Deluxe Thinkers" src="static/assets/Deluxe-Thinkers-Logo.png"
-                    width="100" height="100">
-            </a>
-        </div>
-        <div class="col-md-2">
-            <a href="https://www.cybersummercamp.org" target="_blank" rel="noopener noreferrer">
-                <img class="logo" border="0" alt="Cyber Summer Camp" src="static/assets/cybersummercamp.png" width="100"
-                    height="100">
-            </a>
-        </div>
-        <div class="col-md-2">
-            <a href="https://balsamiq.com" target="_blank" rel="noopener noreferrer">
-                <img class="logo" border="0" alt="Balsamiq" src="static/assets/balsamiq.png" width="100" height="100">
-            </a>
-        </div>
-        <div class="col-md-2">
-            <a href="http://www.u3realty.com" target="_blank" rel="noopener noreferrer">
-                <img class="logo" border="0" alt="U3Realty" src="static/assets/realty.png" width="122" height="100">
-            </a>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-4">
+                <a href="https://www.echoar.xyz" target="_blank" rel="noopener noreferrer">
+                    <img id="echo" class="logo" border="0" alt="echoAR" src="static/assets/echoAR_-_Logo_2020.png"
+                         width="200" height="100">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <a href="https://rstudio.com" target="_blank" rel="noopener noreferrer">
+                    <img id="rstudio" class="logo" border="0" alt="RStudio" src="static/assets/RStudio-Logo-Flat-2.png"
+                         width="200" height="100">
+                </a>
+            </div>
         </div>
 
-    </div>
+        <h3 style="color: silver;">Silver</h3>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-md-2">
+                <a href="https://deluxethinkers.wixsite.com/deluxe" target="_blank" rel="noopener noreferrer">
+                    <img class="logo" border="0" alt="Deluxe Thinkers" src="static/assets/Deluxe-Thinkers-Logo.png"
+                         width="90" height="90">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="https://www.cybersummercamp.org" target="_blank" rel="noopener noreferrer">
+                    <img class="logo" border="0" alt="Cyber Summer Camp" src="static/assets/cybersummercamp.png"
+                         width="90"
+                         height="90">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="https://balsamiq.com" target="_blank" rel="noopener noreferrer">
+                    <img class="logo" border="0" alt="Balsamiq" src="static/assets/balsamiq-square.png" width="90"
+                         height="90">
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="http://www.u3realty.com" target="_blank" rel="noopener noreferrer">
+                    <img class="logo" border="0" alt="U3Realty" src="static/assets/realty.png" width="90" height="90">
+                </a>
+            </div>
 
+        </div>
 
-    <!-- add wolfram alpha -->
-    </div>
+        <br/><br/>
+        <a href="https://hackclub.com/bank/" target="_blank" rel="noopener noreferrer">
+            <img id="bank" class="logo" border="0" alt="Powered by Hack Club Bank" src="static/assets/bank.png" width="400"
+                 height="100">
+        </a>
+        <div id="dotbg"></div>
+    </section>
 
-    <br /><br />
-    <a href="https://hackclub.com/bank/" target="_blank" rel="noopener noreferrer">
-        <img class="logo" border="0" alt="Powered by Hack Club Bank" src="static/assets/bank.png" width="400"
-            height="100">
-    </a>
-    <div id="dotbg"></div>
-</section>
-
-<section id="team" style="background: #1d221e" class="container-fluid px-0">
-    <br>
-    <br>
-    <h1>Team</h1>
-    <br>
-    <div class="row justify-content-center">
-        <figure class="col-3">
-            <img src="../../static/assets/people/eric.jpg" alt="Eric Xie" width=200 height=200 />
-            <h1> </h1>
-            <figcaption>
-                <h5 class="figure-caption-title">Eric Xie</h5>
-                <p class="figure-caption-e2">Director</p>
-                <p class="figure-caption">Software, Marketing</p>
-                <a href="mailto: ericxie6@gmail.com" class="personal hvr-grow-shadow fa fa-envelope fa-lg"
-                    style="color: white" aria-hidden="true"></i></a>
-                <a href="https://github.com/ericx1e" target="_blank"><i
+    <section id="team" style="background: #1d221e" class="container-fluid px-0">
+        <h1>Team</h1>
+        <br>
+        <div class="row justify-content-center">
+            <figure class="col-3">
+                <img src="../../static/assets/people/eric.jpg" alt="Eric Xie" width=200 height=200/>
+                <h1></h1>
+                <figcaption>
+                    <h5 class="figure-caption-title">Eric Xie</h5>
+                    <p class="figure-caption-e2">Director</p>
+                    <p class="figure-caption">Software, Marketing</p>
+                    <a href="mailto: ericxie6@gmail.com" class="personal hvr-grow-shadow fa fa-envelope fa-lg"
+                       style="color: white" aria-hidden="true"></i></a>
+                    <a href="https://github.com/ericx1e" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                    <a href="https://open.spotify.com/user/ericxxie?si=sCJdKbxVQVWEho6fVYAPng" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-spotify fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="col-3">
+                <img src="../../static/assets/people/Andrew.jpg" alt="Andrew Boyer" width=200 height=200/>
+                <h1></h1>
+                <h5 class="figure-caption-title">Andrew Boyer</h5>
+                <p class="figure-caption-e2">Executive Director</p>
+                <p class="figure-caption">All Teams</p>
+                <a href="mailto: asboyer@gmail.com" class="personal hvr-grow-shadow fa fa-envelope fa-lg"
+                   style="color: white" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/andrew-boyer-1771791b0" target="_blank"><i
+                        class="personal hvr-grow-shadow fab fa-linkedin fa-lg" style="color: white"
+                        aria-hidden="true"></i></a>
+                <a href="https://github.com/asboyer2" target="_blank"><i
                         class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
                         aria-hidden="true"></i></a>
-                <a href="https://open.spotify.com/user/ericxxie?si=sCJdKbxVQVWEho6fVYAPng" target="_blank"><i
-                        class="personal hvr-grow-shadow fab fa-spotify fa-lg" style="color: white"
-                        aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-        <figure class="col-3">
-            <img src="../../static/assets/people/Andrew.jpg" alt="Andrew Boyer" width=200 height=200 />
-            <h1> </h1>
-            <h5 class="figure-caption-title">Andrew Boyer</h5>
-            <p class="figure-caption-e2">Executive Director</p>
-            <p class="figure-caption">All Teams</p>
-            <a href="mailto: asboyer@gmail.com" class="personal hvr-grow-shadow fa fa-envelope fa-lg"
-                style="color: white" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/andrew-boyer-1771791b0" target="_blank"><i
-                    class="personal hvr-grow-shadow fab fa-linkedin fa-lg" style="color: white"
-                    aria-hidden="true"></i></a>
-            <a href="https://github.com/asboyer2" target="_blank"><i
-                    class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
-                    aria-hidden="true"></i></a>
-            <a href="https://open.spotify.com/user/uuzdbyuye92sxqjltw955qm9n?si=rPFH2WO_TQOwm8TH_PPzVQ"
-                target="_blank"><i class="personal hvr-grow-shadow fab fa-spotify fa-lg" style="color: white"
-                    aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-        <figure class="col-3">
-            <img src="../../static/assets/people/kevin.png" alt="Kevin Zhao" width=200 height=200 />
-            <h1> </h1>
-            <figcaption>
-                <h5 class="figure-caption-title">Kevin Zhao</h5>
-                <p class="figure-caption-e2">Director</p>
-                <p class="figure-caption">Software</p>
-                <a href="mailto: kevin_zhao@student.waylandps.org" class="personal hvr-grow-shadow fa fa-envelope fa-lg"
-                    style="color: white" aria-hidden="true"></i></a>
-                <a href="https://github.com/Kevin-Zhao-Github" target="_blank"><i
-                        class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
-                        aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-    </div>
-    <br>
-    <hr width=200px style="
+                <a href="https://open.spotify.com/user/uuzdbyuye92sxqjltw955qm9n?si=rPFH2WO_TQOwm8TH_PPzVQ"
+                   target="_blank"><i class="personal hvr-grow-shadow fab fa-spotify fa-lg" style="color: white"
+                                      aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="col-3">
+                <img src="../../static/assets/people/kevin.png" alt="Kevin Zhao" width=200 height=200/>
+                <h1></h1>
+                <figcaption>
+                    <h5 class="figure-caption-title">Kevin Zhao</h5>
+                    <p class="figure-caption-e2">Director</p>
+                    <p class="figure-caption">Software</p>
+                    <a href="mailto: kevin_zhao@student.waylandps.org"
+                       class="personal hvr-grow-shadow fa fa-envelope fa-lg"
+                       style="color: white" aria-hidden="true"></i></a>
+                    <a href="https://github.com/Kevin-Zhao-Github" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+        </div>
+        <br>
+        <hr width=200px style="
           height: 1px;
           border-color:lightslategrey;
           background-color: limegreen;
         ">
 
-    <br>
-    <div class="row justify-content-center">
-        <figure class="col-3">
-            <img src="../../static/assets/people/Jayanth.jpg" alt="Jayanth Mani" width=150 height=150 />
-            <h1> </h1>
-            <h5 class="figure-caption-title">Jayanth Mani</h5>
-            <p class="figure-caption">Treasury</p>
-            <a href="mailto: jayanth.mani14@gmail.com
-            " class="personal hvr-grow-shadow fa fa-envelope fa-lg" style="color: white" aria-hidden="true"></i></a>
-            <a href="https://github.com/Jayanth-Mani" target="_blank"><i
-                    class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
-                    aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-        <figure class="col-3">
-            <img class="cropped" src="../../static/assets/people/misha.png" alt="Misha Boyko" width=150 height=150 />
-            <h1> </h1>
-            <figcaption>
-                <h5 class="figure-caption-title">Misha Boyko</h5>
-                <p class="figure-caption">Marketing</p>
-                <a href="https://github.com/Misha-Boyko" target="_blank"><i
-                        class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
-                        aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-        <figure class="col-3">
-            <img class="cropped" src="../../static/assets/people/carson.jpg" alt="Carson Boyer" width=150 height=150 />
-            <h1> </h1>
-            <figcaption>
-                <h5 class="figure-caption-title">Carson Boyer</h5>
-                <p class="figure-caption">Marketing</p>
-                <a href="https://github.com/TheCarsonBoyer" target="_blank"><i
-                        class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
-                        aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-        <figure class="col-3">
-            <img class="cropped" src="../../static/assets/people/Rehan.jpg" alt="Rehan Samaratunga" width=150
-                height=150 />
-            <h1> </h1>
-            <figcaption>
-                <h5 class="figure-caption-title">Rehan Samaratunga</h5>
-                <p class="figure-caption">Software</p>
-                <a href="mailto: rehandsam@gmail.com
-                " class="personal hvr-grow-shadow fa fa-envelope fa-lg" style="color: white"
-                    aria-hidden="true"></i></a>
-                <a href="https://github.com/Rehan164" target="_blank"><i
-                        class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
-                        aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-        <figure class="col-3">
-            <img src="../../static/assets/people/Ayaan.jpg" alt="Ayaan Rashid" width=150 height=150 />
-            <h1> </h1>
-            <figcaption>
-                <h5 class="figure-caption-title">Ayaan Rashid</h5>
-                <p class="figure-caption">Treasury</p>
-                <a <a href="mailto: kashif.rashid.jr@gmail.com" class="personal hvr-grow-shadow fa fa-envelope fa-lg"
-                    style="color: white" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/cptcranjuice/" target="_blank"><i
-                        class="personal hvr-grow-shadow fab fa-instagram fa-lg" style="color: white"
-                        aria-hidden="true"></i></a>
-                <a href="https://github.com/CptCranJuice" target="_blank"><i
-                        class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
-                        aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-        <figure class="col-3">
-            <img class="cropped" src="../../static/assets/people/Sam.jpg" alt="Sam Conner" width=150 height=150 />
-            <h1> </h1>
-            <figcaption>
-                <h5 class="figure-caption-title">Sam Conner</h5>
-                <p class="figure-caption">Treasury</p>
-                <a href="https://github.com/sammmmmc" target="_blank"><i
-                        class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
-                        aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-        <figure class="col-3">
-            <img class="cropped" src="../../static/assets/people/Brendan.jpg" alt="Brendan Shen" width=150 height=150 />
-            <h1> </h1>
-            <figcaption>
-                <h5 class="figure-caption-title">Brendan Shen</h5>
-                <p class="figure-caption">Software</p>
-                <a href="mailto: bshen.324@gmail.com
-                " class="personal hvr-grow-shadow fa fa-envelope fa-lg" style="color: white"
-                    aria-hidden="true"></i></a>
-                <a href="https://github.com/Shen0000" target="_blank"><i
-                        class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
-                        aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-        <figure class="col-3">
-            <img class="cropped" src="../../static/assets/people/Lucas.png" alt="Lucas Thompson" width=150 height=150 />
-            <h1> </h1>
-            <figcaption>
-                <h5 class="figure-caption-title">Lucas Thompson</h5>
-                <p class="figure-caption">Graphic Design</p>
-                <a href="mailto: lucas_thompson@student.waylandps.org
-                " class="personal hvr-grow-shadow fa fa-envelope fa-lg" style="color: white"
-                    aria-hidden="true"></i></a>
-                <a href="https://github.com/InternalTurtle" target="_blank"><i
-                        class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
-                        aria-hidden="true"></i></a>
-            </figcaption>
-        </figure>
-    </div>
-</section>
-
-<section id="social-media" style="padding: 5vh 0vw 5vh 0vw; background: #101010">
-    <div class="container-fluid">
-        <h4>Follow our social media!</h4>
+        <br>
         <div class="row justify-content-center">
-            <div class="col-md-1 col-sm-2 d-flex justify-content-center">
-                <a href="https://www.youtube.com/channel/UCwZ5Ip1wCb8yC9sfNnCtsZw" target="_blank"
-                    rel="noopener noreferrer">
-                    <i class="fab fa-youtube fa-3x"></i>
-                </a>
-            </div>
-            <div class="col-md-1 col-sm-2 d-flex justify-content-center">
-                <a href="https://www.instagram.com/waylandcomputer/" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-instagram fa-3x"></i>
-                </a>
-            </div>
-            <div class="col-md-1 col-sm-2 d-flex justify-content-center">
-                <a href="https://www.facebook.com/groups/236451944678953" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-facebook fa-3x"></i>
-                </a>
-            </div>
-            <div class="col-md-1 col-sm-2 d-flex justify-content-center">
-                <a href="https://github.com/Wayland-CS-Club" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github-square fa-3x"></i>
-                </a>
+            <figure class="col-3">
+                <img src="../../static/assets/people/Jayanth.jpg" alt="Jayanth Mani" width=150 height=150/>
+                <h1></h1>
+                <h5 class="figure-caption-title">Jayanth Mani</h5>
+                <p class="figure-caption">Treasury</p>
+                <a href="mailto: jayanth.mani14@gmail.com
+            " class="personal hvr-grow-shadow fa fa-envelope fa-lg" style="color: white" aria-hidden="true"></i></a>
+                <a href="https://github.com/Jayanth-Mani" target="_blank"><i
+                        class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
+                        aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="col-3">
+                <img class="cropped" src="../../static/assets/people/misha.png" alt="Misha Boyko" width=150 height=150/>
+                <h1></h1>
+                <figcaption>
+                    <h5 class="figure-caption-title">Misha Boyko</h5>
+                    <p class="figure-caption">Marketing</p>
+                    <a href="https://github.com/Misha-Boyko" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="col-3">
+                <img class="cropped" src="../../static/assets/people/carson.jpg" alt="Carson Boyer" width=150
+                     height=150/>
+                <h1></h1>
+                <figcaption>
+                    <h5 class="figure-caption-title">Carson Boyer</h5>
+                    <p class="figure-caption">Marketing</p>
+                    <a href="https://github.com/TheCarsonBoyer" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="col-3">
+                <img class="cropped" src="../../static/assets/people/Rehan.jpg" alt="Rehan Samaratunga" width=150
+                     height=150/>
+                <h1></h1>
+                <figcaption>
+                    <h5 class="figure-caption-title">Rehan Samaratunga</h5>
+                    <p class="figure-caption">Software</p>
+                    <a href="mailto: rehandsam@gmail.com
+                " class="personal hvr-grow-shadow fa fa-envelope fa-lg" style="color: white"
+                       aria-hidden="true"></i></a>
+                    <a href="https://github.com/Rehan164" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="col-3">
+                <img src="../../static/assets/people/Ayaan.jpg" alt="Ayaan Rashid" width=150 height=150/>
+                <h1></h1>
+                <figcaption>
+                    <h5 class="figure-caption-title">Ayaan Rashid</h5>
+                    <p class="figure-caption">Treasury</p>
+                    <a <a href="mailto: kashif.rashid.jr@gmail.com"
+                          class="personal hvr-grow-shadow fa fa-envelope fa-lg"
+                          style="color: white" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/cptcranjuice/" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-instagram fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                    <a href="https://github.com/CptCranJuice" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="col-3">
+                <img class="cropped" src="../../static/assets/people/Sam.jpg" alt="Sam Conner" width=150 height=150/>
+                <h1></h1>
+                <figcaption>
+                    <h5 class="figure-caption-title">Sam Conner</h5>
+                    <p class="figure-caption">Treasury</p>
+                    <a href="https://github.com/sammmmmc" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="col-3">
+                <img class="cropped" src="../../static/assets/people/Brendan.jpg" alt="Brendan Shen" width=150
+                     height=150/>
+                <h1></h1>
+                <figcaption>
+                    <h5 class="figure-caption-title">Brendan Shen</h5>
+                    <p class="figure-caption">Software</p>
+                    <a href="mailto: bshen.324@gmail.com
+                " class="personal hvr-grow-shadow fa fa-envelope fa-lg" style="color: white"
+                       aria-hidden="true"></i></a>
+                    <a href="https://github.com/Shen0000" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="col-3">
+                <img class="cropped" src="../../static/assets/people/Lucas.png" alt="Lucas Thompson" width=150
+                     height=150/>
+                <h1></h1>
+                <figcaption>
+                    <h5 class="figure-caption-title">Lucas Thompson</h5>
+                    <p class="figure-caption">Graphic Design</p>
+                    <a href="mailto: lucas_thompson@student.waylandps.org
+                " class="personal hvr-grow-shadow fa fa-envelope fa-lg" style="color: white"
+                       aria-hidden="true"></i></a>
+                    <a href="https://github.com/InternalTurtle" target="_blank"><i
+                            class="personal hvr-grow-shadow fab fa-github fa-lg" style="color: white"
+                            aria-hidden="true"></i></a>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="social-media" style="padding: 5vh 0vw 5vh 0vw; background: #101010">
+        <div class="container-fluid">
+            <h4>Follow our social media!</h4>
+            <div class="row justify-content-center">
+                <div class="col-md-1 col-sm-2 d-flex justify-content-center">
+                    <a href="https://www.youtube.com/channel/UCwZ5Ip1wCb8yC9sfNnCtsZw" target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="fab fa-youtube fa-3x"></i>
+                    </a>
+                </div>
+                <div class="col-md-1 col-sm-2 d-flex justify-content-center">
+                    <a href="https://www.instagram.com/waylandcomputer/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram fa-3x"></i>
+                    </a>
+                </div>
+                <div class="col-md-1 col-sm-2 d-flex justify-content-center">
+                    <a href="https://www.facebook.com/groups/236451944678953" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook fa-3x"></i>
+                    </a>
+                </div>
+                <div class="col-md-1 col-sm-2 d-flex justify-content-center">
+                    <a href="https://github.com/Wayland-CS-Club" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github-square fa-3x"></i>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
 
-</section>
-<section id="about" style="padding: 1vh 1vw 1vh 1vw; background: #060606">
-    <p id="copyright" style="color: #797D7F">
-        Copyright © 2021 RebootHacks, a 501(c)(3) non-profit organization,
-        fiscally sponsored by Hack Club Bank
-        <br>
-    </p>
-</section>
+    </section>
+    <section id="about" style="padding: 1vh 1vw 1vh 1vw; background: #060606">
+        <p id="copyright" style="color: #797D7F">
+            Copyright © 2021 RebootHacks, a 501(c)(3) non-profit organization,
+            fiscally sponsored by Hack Club Bank
+            <br>
+        </p>
+    </section>
 {% endblock %}
 
 {% block scripts %}
-<script src="https://cdn.rawgit.com/vuejs/vue/v1.0.24/dist/vue.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
-<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="https://cdn.rawgit.com/vuejs/vue/v1.0.24/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 {% endblock %}
