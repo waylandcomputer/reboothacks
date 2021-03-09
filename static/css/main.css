@@ -319,6 +319,15 @@ tbody {
     padding-right: 30px;
 }
 
+.logo {
+    margin-bottom: 20px;
+}
+
+#echo {
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
 .logo:hover {
     animation: pulse;
     animation-duration: 2s;
