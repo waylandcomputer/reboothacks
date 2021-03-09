@@ -170,11 +170,11 @@ ul {
     text-decoration: none;
 }
 
-a[aria-expanded=true] .fa-minus-square {
+a[aria-expanded=false] .fa-minus-square {
     display: none
 }
 
-a[aria-expanded=false] .fa-plus-square {
+a[aria-expanded=true] .fa-plus-square {
     display: none
 }
 
@@ -290,7 +290,7 @@ tbody {
     margin-bottom: 2%;
 }
 
-#team #dotbg {
+#dotbg {
     background-image: url("../../static/assets/OLED-iPhone-11-Pro-green-wallpaper-iDownloadBlog-green-vortex.png");
     height: 40vh;
     background-size: cover;
