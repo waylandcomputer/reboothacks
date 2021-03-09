@@ -136,8 +136,9 @@ ul {
 
 #about h4 {
     margin: 10%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
 }
 
 #about div {
@@ -310,7 +311,7 @@ tbody {
     object-position: 50%, 50%;
 }
 
-#sponsors, #social-media {
+#social-media {
     padding: 20px;
 }
 
@@ -320,17 +321,42 @@ tbody {
 }
 
 .logo {
-    margin-bottom: 20px;
-}
-
-#echo {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .logo:hover {
     animation: pulse;
     animation-duration: 2s;
+}
+
+#wolfram {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#coderschool {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#replit {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+#echo {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+#rstudio {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#bank {
+    margin-bottom: 30px;
 }
 
 #social-media div div div a {
