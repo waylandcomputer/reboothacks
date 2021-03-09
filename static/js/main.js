@@ -27,7 +27,7 @@ var sat_20 = `
             </tr>
             <tr>
                 <td>7:45 PM</td>
-                <td>Speaker</td>
+                <td>Git workshop</td>
             </tr>
             <tr>
                 <td>8:45 PM</td>
@@ -62,7 +62,7 @@ var fri_26 = `
             </tr>
             <tr>
                 <td>6:45 PM</td>
-                <td>Finding a team, slack tutorial</td>
+                <td>Form your team!</td>
             </tr>
             <tr>
                 <td>7:00 PM</td>
@@ -70,7 +70,7 @@ var fri_26 = `
             </tr>
             <tr>
                 <td>7:30 PM</td>
-                <td>Keynote speaker</td>
+                <td>Keynote address</td>
             </tr>
             <tr>
                 <td>8:30 PM</td>
@@ -101,23 +101,23 @@ var sat_27 = `
             </tr>
             <tr>
                 <td>9:00 AM</td>
-                <td>Git workshop</td>
+                <td>Data Science w/ Python</td>
             </tr>
             <tr>
                 <td>10:00 AM</td>
-                <td>Workshop space open</td>
+                <td>Intro to programming</td>
             </tr>
             <tr>
                 <td>11:00 AM</td>
-                <td>Speaker</td>
+                <td>Virtual reality development</td>
             </tr>
             <tr>
                 <td>12:00 PM</td>
                 <td>Check in & lunch</td>
             </tr>
             <tr>
-                <td>1:30 PM</td>
-                <td>Speaker</td>
+                <td>2:00 PM</td>
+                <td>Debugging w/ JavaScript</td>
             </tr>
             <tr>
                 <td>4:00 PM</td>
