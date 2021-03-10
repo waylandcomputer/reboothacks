@@ -304,7 +304,6 @@ tbody {
     margin-bottom: 15px;
 }
 
-
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
         display: none;
@@ -338,7 +337,14 @@ tbody {
   transform: translateX(0);
 }
 
+.card {
+    background-color: #1d221e;
+}
 
+.card img {
+    display: block;
+    margin: auto;
+}
 
 #team div figure img {
     border: 5px solid #13FF7D;
