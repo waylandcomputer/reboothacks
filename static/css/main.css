@@ -115,7 +115,7 @@ ul {
     padding-right: 20px;
 }
 
-.slide {
+.slidee {
     color: #FFF;
     border: 2px solid #03C04A;
     border-radius: 5px;
@@ -126,7 +126,7 @@ ul {
     transition: ease-out 0.4s;
 }
 
-.slide:hover {
+.slidee:hover {
     box-shadow: inset 0 0 0 75px #03C04A;
 }
 
@@ -299,6 +299,46 @@ tbody {
     background-position: 50% 60%;
     background-repeat: no-repeat;
 }
+
+#volunteers div figure img {
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{
+  transform: translateX(0);
+}
+
+
 
 #team div figure img {
     border: 5px solid #13FF7D;
