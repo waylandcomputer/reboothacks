@@ -311,6 +311,11 @@ tbody {
     .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
+
+    #volunteers div figure img {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 .carousel-inner .carousel-item.active,
@@ -320,7 +325,6 @@ tbody {
 }
 
 @media (min-width: 768px) {
-
     .carousel-inner .carousel-item-right.active,
     .carousel-inner .carousel-item-next {
       transform: translateX(33.333%);
@@ -330,6 +334,10 @@ tbody {
     .carousel-inner .carousel-item-prev {
       transform: translateX(-33.333%);
     }
+    #volunteers div figure img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .carousel-inner .carousel-item-right,
@@ -337,8 +345,16 @@ tbody {
   transform: translateX(0);
 }
 
+.carousel-item.active {
+    display: inline-flex;
+    overflow-y: hidden;
+}
+
 .card {
     background-color: #1d221e;
+    padding: 0px;
+    padding-top: 10px;
+    margin: 0px;
 }
 
 .card img {
