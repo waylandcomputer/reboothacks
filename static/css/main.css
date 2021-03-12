@@ -159,7 +159,11 @@ ul {
 }
 
 #prizes {
-    color: black;
+    color: white;
+}
+
+#prizes a {
+  color: #90EE8F;
 }
 
 .panel {
@@ -624,4 +628,7 @@ tbody {
 
 #main-challenge h5 ul, #beginner-challenge h5 ul {
     max-width: 500px;
+
+
 }
+
