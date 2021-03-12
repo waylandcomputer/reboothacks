@@ -404,6 +404,7 @@ tbody {
 
 #prizes .row .col-md-6 ul {
     display: inline-block;
+    padding-left: 0px;
     margin-bottom: 20px;
     max-width: 400px;
 }
