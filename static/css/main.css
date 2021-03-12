@@ -422,6 +422,16 @@ tbody {
     padding-bottom: 15px;
 }
 
+#pass1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#linode {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
 #bank {
     margin-bottom: 30px;
 }
