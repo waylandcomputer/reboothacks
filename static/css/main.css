@@ -60,7 +60,7 @@ ul {
 }
 
 .mainbg {
-    background-image: url("/static/assets/square-header-blurred.jpg");
+    background-image: url("/static/assets/main-background.jpg");
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -142,7 +142,7 @@ ul {
 }
 
 #about div {
-    background-image: url("../../static/assets/abstract-pattern.jpg");
+    background-image: url("../assets/abstract-parallax.jpg");
     height: 40vh;
     background-size: cover;
     background-attachment: fixed;
@@ -292,7 +292,7 @@ tbody {
 }
 
 #dotbg {
-    background-image: url("../../static/assets/OLED-iPhone-11-Pro-green-wallpaper-iDownloadBlog-green-vortex.png");
+    background-image: url("../assets/vortex-parallax.png");
     height: 40vh;
     background-size: cover;
     background-attachment: fixed;
@@ -458,6 +458,11 @@ tbody {
 #linode {
     padding-top: 27px;
     padding-bottom: 27px;
+}
+
+#balsamiq {
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 #bank {
@@ -642,7 +647,7 @@ tbody {
 }
 
 #beginner-challenge div:not(.row) {
-    background-image: url("../../static/assets/matrix-binary-code-digits-wallpaper-preview.jpg");
+    background-image: url("../assets/binary-parallax.jpg");
     height: 40vh;
     background-size: cover;
     background-attachment: fixed;
