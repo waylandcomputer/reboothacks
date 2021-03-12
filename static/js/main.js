@@ -54,7 +54,7 @@ var fri_26 = `
             <tbody>
             <tr>
                 <td>6:00 PM</td>
-                <td>Opening ceromony starts</td>
+                <td>Opening ceremony starts</td>
             </tr>
             <tr>
                 <td>6:15 PM</td>

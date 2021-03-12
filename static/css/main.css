@@ -158,14 +158,6 @@ ul {
     margin: 0px;
 }
 
-#prizes {
-    color: white;
-}
-
-#prizes a {
-  color: #90EE8F;
-}
-
 .panel {
     margin: 20px;
 }
@@ -389,6 +381,38 @@ tbody {
 #social-media h4 {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+#prizes {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#prizes a {
+  color: #90EE8F;
+}
+
+#prizes .row {
+    margin: auto;
+    max-width: 1200px;
+}
+
+#prizes .row .col-md-6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#prizes .row .col-md-6 ul {
+    display: inline-block;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+#prizes .row .col-md-6 span:last-child {
+    display: inline-block;
+    font-size: 12px;
+    max-width: 380px;
 }
 
 .logo {
