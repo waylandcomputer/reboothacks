@@ -406,7 +406,7 @@ tbody {
     display: inline-block;
     padding-left: 0px;
     margin-bottom: 20px;
-    max-width: 400px;
+    max-width: 420px;
 }
 
 #prizes .row .col-md-6 span:last-child {
@@ -461,8 +461,8 @@ tbody {
 }
 
 #balsamiq {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 31px;
+    padding-bottom: 31px;
 }
 
 #bank {
