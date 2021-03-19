@@ -651,7 +651,7 @@ tbody {
     margin-bottom: 2%;
 }
 
-#beginner-challenge div:not(.row) {
+#beginner-challenge #stripebg {
     background-image: url("../assets/groot-parallax.png");
     height: 40vh;
     background-size: cover;
@@ -665,7 +665,5 @@ tbody {
 
 #main-challenge h5 ul, #beginner-challenge h5 ul {
     max-width: 500px;
-
-
 }
 
