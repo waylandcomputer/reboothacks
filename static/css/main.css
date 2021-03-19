@@ -659,6 +659,9 @@ tbody {
     background-position: center;
     background-repeat: no-repeat;
 }
+#beginner-challenge h4 a {
+    color: #069144
+}
 
 #main-challenge h5 ul, #beginner-challenge h5 ul {
     max-width: 500px;
