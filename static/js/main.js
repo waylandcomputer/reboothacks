@@ -108,11 +108,11 @@ var sat_27 = `
                 <td>Intro to programming</td>
             </tr>
             <tr>
-                <td>11:00 AM</td>
+                <td>12:00 PM</td>
                 <td>Virtual reality development</td>
             </tr>
             <tr>
-                <td>12:00 PM</td>
+                <td>1:00 PM</td>
                 <td>Check in & lunch</td>
             </tr>
             <tr>
