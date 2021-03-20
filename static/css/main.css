@@ -652,7 +652,7 @@ tbody {
 }
 
 #beginner-challenge #stripebg {
-    background-image: url("../assets/groot-parallax.png");
+    background-image: url("../assets/main-background.jpg");
     height: 40vh;
     background-size: cover;
     background-attachment: fixed;
