@@ -14,24 +14,16 @@ var sat_20 = `
             </thead>
             <tbody>
             <tr>
-                <td>7:25 PM</td>
+                <td>7:40 PM</td>
                 <td>Stream starts!</td>
             </tr>
             <tr>
-                <td>7:30 PM</td>
-                <td>Introductions</td>
-            </tr>
-            <tr>
                 <td>7:45 PM</td>
-                <td>Challenge Introductions</td>
+                <td>Introductions</td>
             </tr>
             <tr>
                 <td>8:00 PM</td>
                 <td>Git workshop</td>
-            </tr>
-            <tr>
-                <td>8:45 PM</td>
-                <td>Demo</td>
             </tr>
             <tr>
                 <td>9:00 PM</td>
