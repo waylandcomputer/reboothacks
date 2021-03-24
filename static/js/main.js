@@ -45,16 +45,12 @@ var fri_26 = `
             </thead>
             <tbody>
             <tr>
-                <td>6:00 PM</td>
+                <td>6:30 PM</td>
                 <td>Opening ceremony starts</td>
             </tr>
             <tr>
-                <td>6:15 PM</td>
-                <td>Challenge Introductions</td>
-            </tr>
-            <tr>
                 <td>6:45 PM</td>
-                <td>Form your team!</td>
+                <td>Challenge Introductions</td>
             </tr>
             <tr>
                 <td>7:00 PM</td>
@@ -97,7 +93,7 @@ var sat_27 = `
             </tr>
             <tr>
                 <td>10:00 AM</td>
-                <td>Intro to programming</td>
+                <td>UI/UX design</td>
             </tr>
             <tr>
                 <td>12:00 PM</td>
