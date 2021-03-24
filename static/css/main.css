@@ -659,6 +659,7 @@ tbody {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 #beginner-challenge h4 a {
     color: #069144
 }
@@ -667,3 +668,19 @@ tbody {
     max-width: 500px;
 }
 
+@media (max-width: 768px) {
+    #main-challenge div img, #beginner-challenge div img {
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    #main-challenge div img, #beginner-challenge div img {
+        width: 40vw;
+    }
+}
+
+#main-challenge div img, #beginner-challenge div img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
