@@ -57,7 +57,7 @@ var fri_26 = `
                 <td>Intro speaker</td>
             </tr>
             <tr>
-                <td>7:30 PM</td>
+                <td>7:45 PM</td>
                 <td>Keynote address</td>
             </tr>
             <tr>
