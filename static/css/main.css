@@ -681,6 +681,19 @@ tbody {
 }
 
 #main-challenge div img, #beginner-challenge div img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.black-frame {
+    border: 5px solid #000000;
+}
+
+.green-frame {
+    border: 5px solid #13FF7D;
+}
+
+#innovation-challenge .row {
     padding-top: 20px;
     padding-bottom: 20px;
 }
