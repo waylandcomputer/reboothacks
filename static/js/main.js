@@ -221,7 +221,7 @@ var Countdown = new Vue({
     el: el,
 
     template: ` 
-  <div class="flip-clock" data-date="2021-03-26 18:30:00" @click="update">
+  <div class="flip-clock" data-date="2021-03-27 17:00:00" @click="update">
     <tracker 
       v-for="tracker in trackers"
       :property="tracker"
