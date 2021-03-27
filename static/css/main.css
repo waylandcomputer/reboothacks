@@ -645,6 +645,13 @@ tbody {
     text-align: center;
 }
 
+#andy h1 {
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 50%;
+    text-align: center;
+}
+
 #beginner-challenge h1, #beginner-challenge h2, #beginner-challenge h3, #beginner-challenge h4, #beginner-challenge h5, #beginner-challenge h6 {
     margin: 10%;
     margin-top: 2%;
