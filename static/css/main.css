@@ -136,6 +136,16 @@ ul {
     padding-bottom: 50px;
 }
 
+.box {
+    margin: auto;
+    background-color: lightgrey;
+    width: 300px;
+    border: 6px solid rgb(46, 182, 46);
+    padding: 20px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
 #about div {
     background-image: url("../assets/abstract-parallax.jpg");
     height: 40vh;
@@ -640,7 +650,7 @@ tbody {
     text-align: center;
 }
 
-#andy h1 {
+#projects h1 {
     margin: 10%;
     margin-top: 2%;
     margin-bottom: 50%;
