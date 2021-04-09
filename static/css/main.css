@@ -684,11 +684,27 @@ tbody {
     #main-challenge div img, #beginner-challenge div img {
         width: 300px;
     }
+
+    #projects .row .col-md-4 img {
+        width: 200px;
+    }
+
+    #projects .row .col-md-3 img {
+        width: 150px;
+    }
 }
 
 @media (min-width: 768px) {
     #main-challenge div img, #beginner-challenge div img {
         width: 40vw;
+    }
+
+    #projects .row .col-md-4 img {
+        width: 20vw;
+    }
+
+    #projects .row .col-md-3 img {
+        width: 15vw;
     }
 }
 
@@ -708,4 +724,13 @@ tbody {
 #innovation-challenge .row {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#projects .row .col-md-3 img, #projects .row .col-md-4 img {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#projects .row .col-md-3, #projects .row .col-md-4 {
+    padding-bottom: 40px;
 }
