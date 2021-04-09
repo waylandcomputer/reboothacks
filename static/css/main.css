@@ -650,13 +650,6 @@ tbody {
     text-align: center;
 }
 
-#projects h1 {
-    margin: 10%;
-    margin-top: 2%;
-    margin-bottom: 50%;
-    text-align: center;
-}
-
 #beginner-challenge h1, #beginner-challenge h2, #beginner-challenge h3, #beginner-challenge h4, #beginner-challenge h5, #beginner-challenge h6 {
     margin: 10%;
     margin-top: 2%;
@@ -724,6 +717,12 @@ tbody {
 #innovation-challenge .row {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#projects h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 #projects .row .col-md-3 img, #projects .row .col-md-4 img {
