@@ -733,3 +733,8 @@ tbody {
 #projects .row .col-md-3, #projects .row .col-md-4 {
     padding-bottom: 40px;
 }
+
+#projects .row .col-md-3 img:hover, #projects .row .col-md-4 img:hover {
+    animation: pulse;
+    animation-duration: 2s;
+}
