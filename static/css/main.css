@@ -679,11 +679,43 @@ tbody {
     }
 
     #projects .row .col-md-4 img {
-        width: 200px;
+        width: 400px;
     }
 
     #projects .row .col-md-3 img {
-        width: 150px;
+        width: 250px;
+    }
+
+    #projects .flex-1 {
+        order: 1;
+    }
+
+    #projects .flex-2 {
+        order: 2;
+    }
+
+    #projects .flex-3 {
+        order: 5;
+    }
+
+    #projects .flex-4 {
+        order: 6;
+    }
+
+    #projects .flex-5 {
+        order: 3;
+    }
+
+    #projects .flex-6 {
+        order: 4;
+    }
+
+    #projects .flex-7 {
+        order: 7;
+    }
+
+    #projects .flex-8 {
+        order: 8;
     }
 }
 
@@ -693,11 +725,43 @@ tbody {
     }
 
     #projects .row .col-md-4 img {
-        width: 20vw;
+        width: 24vw;
     }
 
     #projects .row .col-md-3 img {
-        width: 15vw;
+        width: 18vw;
+    }
+
+    #projects .flex-1 {
+        order: 1;
+    }
+
+    #projects .flex-2 {
+        order: 2;
+    }
+
+    #projects .flex-3 {
+        order: 3;
+    }
+
+    #projects .flex-4 {
+        order: 4;
+    }
+
+    #projects .flex-5 {
+        order: 5;
+    }
+
+    #projects .flex-6 {
+        order: 6;
+    }
+
+    #projects .flex-7 {
+        order: 7;
+    }
+
+    #projects .flex-8 {
+        order: 8;
     }
 }
 
@@ -725,12 +789,36 @@ tbody {
     text-align: center;
 }
 
-#projects .row .col-md-3 img, #projects .row .col-md-4 img {
-    padding: 20px;
+#projects .custom-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects .row [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects .row .col-md-4 img {
     padding-bottom: 10px;
 }
 
-#projects .row .col-md-3, #projects .row .col-md-4 {
+#projects .row .col-md-4 {
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+#projects .flex-5, #projects .flex-6, #projects .flex-7, #projects .flex-8 {
+    padding: 20px;
+    padding-top: 0px;
     padding-bottom: 40px;
 }
 
