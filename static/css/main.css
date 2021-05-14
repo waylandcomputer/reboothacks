@@ -393,7 +393,7 @@ tbody {
     margin-bottom: 20px;
 }
 
-#prizes a {
+#about a, #prizes a, #projects a {
   color: #90EE8F;
 }
 
